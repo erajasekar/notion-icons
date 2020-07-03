@@ -14,8 +14,15 @@
   </section>
 </template>
 
-<script>
-export default {
+<script lang="typescript">
+import iconsData from '../gallery/config'
+import { getImgUrl } from '../gallery/UtilFunctions'
 
+export default {
+  mounted () {
+    iconsData.icons.forEach((data) => {
+      console.log('RAJA ', getImgUrl(iconsData.url, iconsData.style, iconsData.size, 'FFFFFF', data.name))
+    })
+  }
 }
 </script>
