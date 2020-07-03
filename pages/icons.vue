@@ -7,9 +7,11 @@
     </aside>
 
     <div class="container column is-10">
-      <p class="">
-        ICONS
-      </p>
+      <div v-if="iconsData">
+        <p v-for="(icon, index) in iconsData.icons" v-bind:key="index">
+          {{ icon }}
+        </p>
+      </div>
     </div>
   </section>
 </template>
