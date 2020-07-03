@@ -7,12 +7,512 @@
             "style": "material",
             "icons": [
                 {
-                    "name" : "book-shelf",
-                    "tags" : []
+                    "name" : "add-to-favorites", 
+                    "tags" : "[]"
                 },
                 {
-                    "name" : "bookmark",
-                    "tags" : []
+                    "name" : "attach", 
+                    "tags" : "[]"
+                },
+                {
+                    "name" : "baby", 
+                    "tags" : "[]"
+                },
+                {
+                    "name" : "ball-point-pen", 
+                    "tags" : "[]"
+                },
+                {
+                    "name" : "bonds", 
+                    "tags" : "[]"
+                },
+                {
+                    "name" : "book-shelf", 
+                    "tags" : "[]"
+                },
+                {
+                    "name" : "bookmark", 
+                    "tags" : "[]"
+                },
+                {
+                    "name" : "boy", 
+                    "tags" : "[]"
+                },
+                {
+                    "name" : "brain", 
+                    "tags" : "[]"
+                },
+                {
+                    "name" : "brainstorm", 
+                    "tags" : "[]"
+                },
+                {
+                    "name" : "brainstorm-skill", 
+                    "tags" : "[]"
+                },
+                {
+                    "name" : "bridge", 
+                    "tags" : "[]"
+                },
+                {
+                    "name" : "briefcase", 
+                    "tags" : "[]"
+                },
+                {
+                    "name" : "cartoon-boy", 
+                    "tags" : "[]"
+                },
+                {
+                    "name" : "cathedral", 
+                    "tags" : "[]"
+                },
+                {
+                    "name" : "checked-2", 
+                    "tags" : "[]"
+                },
+                {
+                    "name" : "children", 
+                    "tags" : "[]"
+                },
+                {
+                    "name" : "chisel-tip-marker", 
+                    "tags" : "[]"
+                },
+                {
+                    "name" : "circled-menu", 
+                    "tags" : "[]"
+                },
+                {
+                    "name" : "coach", 
+                    "tags" : "[]"
+                },
+                {
+                    "name" : "code", 
+                    "tags" : "[]"
+                },
+                {
+                    "name" : "code-file", 
+                    "tags" : "[]"
+                },
+                {
+                    "name" : "concept", 
+                    "tags" : "[]"
+                },
+                {
+                    "name" : "cottage", 
+                    "tags" : "[]"
+                },
+                {
+                    "name" : "critical-thinking", 
+                    "tags" : "[]"
+                },
+                {
+                    "name" : "crowdfunding", 
+                    "tags" : "[]"
+                },
+                {
+                    "name" : "day-view", 
+                    "tags" : "[]"
+                },
+                {
+                    "name" : "development-skill", 
+                    "tags" : "[]"
+                },
+                {
+                    "name" : "document", 
+                    "tags" : "[]"
+                },
+                {
+                    "name" : "encashment-car", 
+                    "tags" : "[]"
+                },
+                {
+                    "name" : "experience-skill", 
+                    "tags" : "[]"
+                },
+                {
+                    "name" : "family", 
+                    "tags" : "[]"
+                },
+                {
+                    "name" : "father", 
+                    "tags" : "[]"
+                },
+                {
+                    "name" : "flag-filled", 
+                    "tags" : "[]"
+                },
+                {
+                    "name" : "floating-guru", 
+                    "tags" : "[]"
+                },
+                {
+                    "name" : "for-experienced", 
+                    "tags" : "[]"
+                },
+                {
+                    "name" : "glasses", 
+                    "tags" : "[]"
+                },
+                {
+                    "name" : "good-decision", 
+                    "tags" : "[]"
+                },
+                {
+                    "name" : "good-quality", 
+                    "tags" : "[]"
+                },
+                {
+                    "name" : "google-code", 
+                    "tags" : "[]"
+                },
+                {
+                    "name" : "google-play", 
+                    "tags" : "[]"
+                },
+                {
+                    "name" : "guru", 
+                    "tags" : "[]"
+                },
+                {
+                    "name" : "happy", 
+                    "tags" : "[]"
+                },
+                {
+                    "name" : "home", 
+                    "tags" : "[]"
+                },
+                {
+                    "name" : "home-page", 
+                    "tags" : "[]"
+                },
+                {
+                    "name" : "idea", 
+                    "tags" : "[]"
+                },
+                {
+                    "name" : "idea-bank", 
+                    "tags" : "[]"
+                },
+                {
+                    "name" : "inbox", 
+                    "tags" : "[]"
+                },
+                {
+                    "name" : "info", 
+                    "tags" : "[]"
+                },
+                {
+                    "name" : "informatics", 
+                    "tags" : "[]"
+                },
+                {
+                    "name" : "innovation", 
+                    "tags" : "[]"
+                },
+                {
+                    "name" : "knowledge-sharing", 
+                    "tags" : "[]"
+                },
+                {
+                    "name" : "launched-rocket", 
+                    "tags" : "[]"
+                },
+                {
+                    "name" : "layers", 
+                    "tags" : "[]"
+                },
+                {
+                    "name" : "leader", 
+                    "tags" : "[]"
+                },
+                {
+                    "name" : "learning", 
+                    "tags" : "[]"
+                },
+                {
+                    "name" : "like", 
+                    "tags" : "[]"
+                },
+                {
+                    "name" : "linked-file", 
+                    "tags" : "[]"
+                },
+                {
+                    "name" : "linkedin", 
+                    "tags" : "[]"
+                },
+                {
+                    "name" : "magazine", 
+                    "tags" : "[]"
+                },
+                {
+                    "name" : "meditation-guru", 
+                    "tags" : "[]"
+                },
+                {
+                    "name" : "menu", 
+                    "tags" : "[]"
+                },
+                {
+                    "name" : "micro", 
+                    "tags" : "[]"
+                },
+                {
+                    "name" : "microphone", 
+                    "tags" : "[]"
+                },
+                {
+                    "name" : "mind-map", 
+                    "tags" : "[]"
+                },
+                {
+                    "name" : "money-bag", 
+                    "tags" : "[]"
+                },
+                {
+                    "name" : "music", 
+                    "tags" : "[]"
+                },
+                {
+                    "name" : "network-document", 
+                    "tags" : "[]"
+                },
+                {
+                    "name" : "new-job", 
+                    "tags" : "[]"
+                },
+                {
+                    "name" : "new-post", 
+                    "tags" : "[]"
+                },
+                {
+                    "name" : "ok", 
+                    "tags" : "[]"
+                },
+                {
+                    "name" : "organization-chart-people", 
+                    "tags" : "[]"
+                },
+                {
+                    "name" : "overview-pages-1", 
+                    "tags" : "[]"
+                },
+                {
+                    "name" : "overview-pages-4", 
+                    "tags" : "[]"
+                },
+                {
+                    "name" : "parent-guardian", 
+                    "tags" : "[]"
+                },
+                {
+                    "name" : "pen", 
+                    "tags" : "[]"
+                },
+                {
+                    "name" : "permanent-job", 
+                    "tags" : "[]"
+                },
+                {
+                    "name" : "person-male", 
+                    "tags" : "[]"
+                },
+                {
+                    "name" : "personal-growth", 
+                    "tags" : "[]"
+                },
+                {
+                    "name" : "pi", 
+                    "tags" : "[]"
+                },
+                {
+                    "name" : "pin", 
+                    "tags" : "[]"
+                },
+                {
+                    "name" : "pranava", 
+                    "tags" : "[]"
+                },
+                {
+                    "name" : "price-tag", 
+                    "tags" : "[]"
+                },
+                {
+                    "name" : "prize", 
+                    "tags" : "[]"
+                },
+                {
+                    "name" : "project", 
+                    "tags" : "[]"
+                },
+                {
+                    "name" : "psychology", 
+                    "tags" : "[]"
+                },
+                {
+                    "name" : "quill-with-ink", 
+                    "tags" : "[]"
+                },
+                {
+                    "name" : "quote", 
+                    "tags" : "[]"
+                },
+                {
+                    "name" : "react-native", 
+                    "tags" : "[]"
+                },
+                {
+                    "name" : "read", 
+                    "tags" : "[]"
+                },
+                {
+                    "name" : "reading", 
+                    "tags" : "[]"
+                },
+                {
+                    "name" : "rocket", 
+                    "tags" : "[]"
+                },
+                {
+                    "name" : "scholarship", 
+                    "tags" : "[]"
+                },
+                {
+                    "name" : "school", 
+                    "tags" : "[]"
+                },
+                {
+                    "name" : "scroll", 
+                    "tags" : "[]"
+                },
+                {
+                    "name" : "settings", 
+                    "tags" : "[]"
+                },
+                {
+                    "name" : "sheets", 
+                    "tags" : "[]"
+                },
+                {
+                    "name" : "smart-playlist", 
+                    "tags" : "[]"
+                },
+                {
+                    "name" : "solar-cross", 
+                    "tags" : "[]"
+                },
+                {
+                    "name" : "source-code", 
+                    "tags" : "[]"
+                },
+                {
+                    "name" : "space-shuttle", 
+                    "tags" : "[]"
+                },
+                {
+                    "name" : "spiral-bound-booklet", 
+                    "tags" : "[]"
+                },
+                {
+                    "name" : "star-of-david", 
+                    "tags" : "[]"
+                },
+                {
+                    "name" : "student-female", 
+                    "tags" : "[]"
+                },
+                {
+                    "name" : "student-male", 
+                    "tags" : "[]"
+                },
+                {
+                    "name" : "suitcase", 
+                    "tags" : "[]"
+                },
+                {
+                    "name" : "sun", 
+                    "tags" : "[]"
+                },
+                {
+                    "name" : "synagogue", 
+                    "tags" : "[]"
+                },
+                {
+                    "name" : "table-of-content", 
+                    "tags" : "[]"
+                },
+                {
+                    "name" : "tabletop-radio", 
+                    "tags" : "[]"
+                },
+                {
+                    "name" : "tag-window", 
+                    "tags" : "[]"
+                },
+                {
+                    "name" : "thinking-bubble", 
+                    "tags" : "[]"
+                },
+                {
+                    "name" : "time-management", 
+                    "tags" : "[]"
+                },
+                {
+                    "name" : "todo-list", 
+                    "tags" : "[]"
+                },
+                {
+                    "name" : "training", 
+                    "tags" : "[]"
+                },
+                {
+                    "name" : "transformation-skill", 
+                    "tags" : "[]"
+                },
+                {
+                    "name" : "type", 
+                    "tags" : "[]"
+                },
+                {
+                    "name" : "university", 
+                    "tags" : "[]"
+                },
+                {
+                    "name" : "video", 
+                    "tags" : "[]"
+                },
+                {
+                    "name" : "video-call", 
+                    "tags" : "[]"
+                },
+                {
+                    "name" : "video-gallery", 
+                    "tags" : "[]"
+                },
+                {
+                    "name" : "video-playlist", 
+                    "tags" : "[]"
+                },
+                {
+                    "name" : "visible", 
+                    "tags" : "[]"
+                },
+                {
+                    "name" : "visualization-skill", 
+                    "tags" : "[]"
+                },
+                {
+                    "name" : "weak-financial-growth", 
+                    "tags" : "[]"
+                },
+                {
+                    "name" : "web-design", 
+                    "tags" : "[]"
+                },
+                {
+                    "name" : "youtube", 
+                    "tags" : "[]"
                 }
             ]
         }

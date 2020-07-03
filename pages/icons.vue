@@ -8,16 +8,11 @@
 
     <div class="container column is-10">
       <section class="section">
-        <div class="columns is-mobile">
-          <div v-for="(icon, index) in iconsData.icons" :key="index" class="column">
+        <div class="columns is-mobile is-multiline ">
+          <div v-for="(icon, index) in iconsData.icons" :key="index" class="column is-one-fifth">
             <div class="card">
-              <header class="card-header">
-                <p class="card-header-title has-text-grey">
-                  Copy
-                </p>
-              </header>
               <div class="card-content">
-                <div class="content has-text-centered">
+                <div class="content has-text-centered center">
                   <img height="50px" width="50px" :src="getImgUrl(icon.name)">
                 </div>
               </div>
@@ -50,3 +45,9 @@ export default class extends Vue {
   }
 }
 </script>
+
+<style scoped>
+  .card-footer {
+    border: 0px;
+  }
+</style>
