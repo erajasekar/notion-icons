@@ -7,24 +7,46 @@
     </aside>
 
     <div class="container column is-10">
-      <div v-if="iconsData">
-        <p v-for="(icon, index) in iconsData.icons" v-bind:key="index">
-          {{ icon }}
-        </p>
-      </div>
+      <section class="section">
+        <div class="columns is-mobile">
+          <div v-for="(icon, index) in iconsData.icons" :key="index" class="column">
+            <div class="card">
+              <header class="card-header">
+                <p class="card-header-title has-text-grey">
+                  Copy
+                </p>
+              </header>
+              <div class="card-content">
+                <div class="content has-text-centered">
+                  <img height="50px" width="50px" :src="getImgUrl(icon.name)">
+                </div>
+              </div>
+              <footer class="card-footer">
+                <div class="card-footer-item">
+                  {{ icon.name }}
+                </div>
+              </footer>
+            </div>
+          </div>
+        </div>
+      </section>
     </div>
   </section>
 </template>
 
-<script lang="typescript">
-import iconsData from '../gallery/config'
-import { getImgUrl } from '../gallery/UtilFunctions'
+<script lang="ts">
 
-export default {
-  mounted () {
-    iconsData.icons.forEach((data) => {
-      console.log('RAJA ', getImgUrl(iconsData.url, iconsData.style, iconsData.size, 'FFFFFF', data.name))
-    })
+import { Component, Vue } from 'nuxt-property-decorator'
+import { IconConfig } from '../gallery/config'
+import { getIconUrl } from '../gallery/UtilFunctions'
+
+@Component
+export default class extends Vue {
+  iconsData : IconConfig = new IconConfig()
+  color = '0000FF'
+
+  getImgUrl (name: string) {
+    return getIconUrl(this.iconsData.url, this.iconsData.style, this.iconsData.size, this.color, name)
   }
 }
 </script>
