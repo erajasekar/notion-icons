@@ -18,8 +18,8 @@
             <li :class="isMenuActive('index')">
               <a href="/">Home</a>
             </li>
-            <li :class="isMenuActive('gallery')">
-              <nuxt-link to="/gallery">
+            <li :class="isMenuActive('icons')">
+              <nuxt-link to="/icons">
                 Icons
               </nuxt-link>
             </li>
