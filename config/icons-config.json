@@ -1,7 +1,21 @@
 {
-    "icon8" : {
-        "url" : "https://img.icons8.com",
-        "size" : 280,
-        "style": "material"
+   "config": [
+       {
+        "icon8" : {
+            "url" : "https://img.icons8.com",
+            "size" : "280",
+            "style": "material",
+            "icons": [
+                {
+                    "name" : "book-shelf",
+                    "tags" : []
+                },
+                {
+                    "name" : "bookmark",
+                    "tags" : []
+                }
+            ]
+        }
     }
+    ]
 }
