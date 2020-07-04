@@ -55,7 +55,8 @@ export default {
   */
   modules: [
     // Doc: https://buefy.github.io/#/documentation
-    'nuxt-buefy'
+    'nuxt-buefy',
+    'nuxt-clipboard2'
   ],
   /*
   ** Build configuration
