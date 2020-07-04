@@ -10,10 +10,13 @@
       <section class="section">
         <div class="columns is-mobile is-multiline ">
           <div v-for="(icon, index) in iconsData.icons" :key="index" class="column is-one-fifth">
-            <div class="icon-card">
-              <a class="">
-                <img height="50px" width="50px" :src="getImgUrl(icon.name)">
-              </a>
+            <div class="icon-card" @click="copyIcon(icon.name)">
+              <div v-if="showCopyConfirmation">
+                Copied!
+              </div>
+              <div>
+                <img :ref="icon.name" height="50px" width="50px" :src="getImgUrl(icon.name)">
+              </div>
               <footer class="">
                 <div class="">
                   {{ icon.name }}
@@ -37,9 +40,22 @@ import { getIconUrl } from '../gallery/UtilFunctions'
 export default class extends Vue {
   iconsData : IconConfig = new IconConfig()
   color = '0000FF'
+  showCopyConfirmation = false
 
   getImgUrl (name: string) {
     return getIconUrl(this.iconsData.url, this.iconsData.style, this.iconsData.size, this.color, name)
+  }
+
+  copyIcon (iconName: string) {
+    const firstImg = (this.$refs[iconName] as any)[0]
+    this.$copyText(firstImg.src).then(() => {
+      this.showCopyConfirmation = true
+      this.$buefy.notification.open({
+        message: 'Copied!',
+        type: 'is-info',
+        position: 'is-bottom-right'
+      })
+    })
   }
 }
 </script>
