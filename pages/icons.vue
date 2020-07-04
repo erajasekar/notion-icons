@@ -10,14 +10,12 @@
       <section class="section">
         <div class="columns is-mobile is-multiline ">
           <div v-for="(icon, index) in iconsData.icons" :key="index" class="column is-one-fifth">
-            <div class="card">
-              <div class="card-content">
-                <div class="content has-text-centered center">
-                  <img height="50px" width="50px" :src="getImgUrl(icon.name)">
-                </div>
-              </div>
-              <footer class="card-footer">
-                <div class="card-footer-item">
+            <div class="icon-card">
+              <a class="">
+                <img height="50px" width="50px" :src="getImgUrl(icon.name)">
+              </a>
+              <footer class="">
+                <div class="">
                   {{ icon.name }}
                 </div>
               </footer>
@@ -47,7 +45,23 @@ export default class extends Vue {
 </script>
 
 <style scoped>
-  .card-footer {
+  /*.card-footer {
     border: 0px;
   }
+  .card {
+    background-color: white;
+    box-shadow: 0 2px 3px rgba(10, 10, 10, 0.1), 0 0 0 1px rgba(10, 10, 10, 0.1);
+    color: #4a4a4a;
+    max-width: 100%;
+    position: relative;
+}
+  .card {
+    border: 10px;
+    max-width: 100%;
+  }*/
+  div.icon-card:hover{
+    box-shadow: 0 2px 3px rgba(10, 10, 10, 0.1), 0 0 0 1px rgba(10, 10, 10, 0.1);
+    color: #4a4a4a;
+  }
+
 </style>
