@@ -35,7 +35,7 @@ export default {
   ** Plugins to load before mounting the App
   ** https://nuxtjs.org/guide/plugins
   */
-  plugins: [
+  plugins: ['~/plugins/global-components.ts'
   ],
   /*
   ** Auto import components
@@ -56,7 +56,8 @@ export default {
   modules: [
     // Doc: https://buefy.github.io/#/documentation
     'nuxt-buefy',
-    'nuxt-clipboard2'
+    'nuxt-clipboard2',
+    'vue-swatches/nuxt'
   ],
   /*
   ** Build configuration
