@@ -1,9 +1,14 @@
 <template>
   <section class="main-content columns">
     <aside class="column is-2 section">
-      <p class="">
-        Filter and Customize
-      </p>
+      <div class="form__field">
+        <div class="form__label">
+          <strong>Pick color:</strong>
+        </div>
+        <div>
+          <v-swatches v-model="color" popover-x="left" />
+        </div>
+      </div>
     </aside>
 
     <div class="container column is-10">
@@ -33,13 +38,19 @@
 <script lang="ts">
 
 import { Component, Vue } from 'nuxt-property-decorator'
+import VSwatches from 'vue-swatches'
+import 'vue-swatches/dist/vue-swatches.css'
 import { IconConfig } from '../gallery/config'
 import { getIconUrl } from '../gallery/UtilFunctions'
 
-@Component
+@Component({
+  components: {
+    VSwatches
+  }
+})
 export default class extends Vue {
   iconsData : IconConfig = new IconConfig()
-  color = '0000FF'
+  color = '#0000FF'
   selectedIcon = ''
 
   getImgUrl (name: string) {
