@@ -11,7 +11,7 @@
         <div class="columns is-mobile is-multiline ">
           <div v-for="(icon, index) in iconsData.icons" :key="index" class="column is-one-fifth">
             <div class="icon-card" @click="copyIcon(icon.name)">
-              <div v-if="showCopyConfirmation">
+              <div v-if="isIconSelected(icon.name)">
                 Copied!
               </div>
               <div>
@@ -40,21 +40,20 @@ import { getIconUrl } from '../gallery/UtilFunctions'
 export default class extends Vue {
   iconsData : IconConfig = new IconConfig()
   color = '0000FF'
-  showCopyConfirmation = false
+  selectedIcon = ''
 
   getImgUrl (name: string) {
     return getIconUrl(this.iconsData.url, this.iconsData.style, this.iconsData.size, this.color, name)
   }
 
+  isIconSelected (name: string) {
+    return name === this.selectedIcon
+  }
+
   copyIcon (iconName: string) {
     const firstImg = (this.$refs[iconName] as any)[0]
     this.$copyText(firstImg.src).then(() => {
-      this.showCopyConfirmation = true
-      this.$buefy.notification.open({
-        message: 'Copied!',
-        type: 'is-info',
-        position: 'is-bottom-right'
-      })
+      this.selectedIcon = iconName
     })
   }
 }
