@@ -27,4 +27,9 @@ export default class extends Vue {
   body {
     background-color: #FAFAFA;
   }
+  .dark {
+    background-color: #2F3437;
+    color: white;
+  }
+
 </style>

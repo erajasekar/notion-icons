@@ -31,10 +31,10 @@
     </aside>
 
     <div class="container column is-10">
-      <section class="section inverse mt-10">
+      <section :class="applyTheme">
         <div class="columns is-mobile is-multiline ">
           <div v-for="(icon, index) in filteredIcons" :key="index" class="column is-one-fifth">
-            <div class="icon-card" @click="copyIcon(icon.name)">
+            <div class="icon-card dark" @click="copyIcon(icon.name)">
               <div v-if="isIconSelected(icon.name)">
                 Copied!
               </div>
@@ -96,6 +96,14 @@ export default class extends Vue {
       this.selectedIcon = iconName
     })
   }
+
+  get applyTheme () {
+    let style = 'section mt-10'
+    if (this.isDarkMode) {
+      style = style + ' dark'
+    }
+    return style
+  }
 }
 </script>
 
@@ -118,9 +126,8 @@ export default class extends Vue {
     box-shadow: 0 2px 3px rgba(10, 10, 10, 0.1), 0 0 0 1px rgba(10, 10, 10, 0.1);
     color: #4a4a4a;
   }
-
-  section.inverse {
-    background-color: #2F3437;
+  div.icon-card.dark:hover{
+    box-shadow: 5 2px 3px rgba(10, 10, 10, 0.1), 0 0 0 1px rgba(10, 10, 10, 0.1);
+    color: white;
   }
-
 </style>
