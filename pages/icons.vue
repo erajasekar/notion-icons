@@ -1,7 +1,7 @@
 <template>
   <section class="main-content columns">
     <aside class="column is-2 section">
-      <div class="form__field">
+      <div class="field">
         <!-- <div class="form__label">
           <strong>Pick color:</strong>
         </div> -->
@@ -17,11 +17,21 @@
         >
           <b-input v-model="searchKeyword" />
         </b-field>
+        <div class="field">
+          <b-switch
+            v-model="isDarkMode"
+            type="is-warn"
+            passive-type="is-dark"
+            outlined
+          >
+            {{ isDarkMode ? "Light Mode" : "Dark Mode" }}
+          </b-switch>
+        </div>
       </div>
     </aside>
 
     <div class="container column is-10">
-      <section class="section">
+      <section class="section inverse mt-10">
         <div class="columns is-mobile is-multiline ">
           <div v-for="(icon, index) in filteredIcons" :key="index" class="column is-one-fifth">
             <div class="icon-card" @click="copyIcon(icon.name)">
@@ -62,6 +72,7 @@ export default class extends Vue {
   color = '#0000FF'
   selectedIcon = ''
   searchKeyword = ''
+  isDarkMode = false
 
   get filteredIcons () {
     if (this.searchKeyword.length > 0) {
@@ -106,6 +117,10 @@ export default class extends Vue {
   div.icon-card:hover{
     box-shadow: 0 2px 3px rgba(10, 10, 10, 0.1), 0 0 0 1px rgba(10, 10, 10, 0.1);
     color: #4a4a4a;
+  }
+
+  section.inverse {
+    background-color: #2F3437;
   }
 
 </style>
