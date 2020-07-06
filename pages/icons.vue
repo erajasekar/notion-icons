@@ -2,19 +2,28 @@
   <section class="main-content columns">
     <aside class="column is-2 section">
       <div class="form__field">
-        <div class="form__label">
+        <!-- <div class="form__label">
           <strong>Pick color:</strong>
-        </div>
-        <div>
-          <v-swatches v-model="color" popover-x="left" />
-        </div>
+        </div> -->
+        <b-field label="Pick color">
+          <v-swatches v-model="color" show-fallback popover-x="left" />
+        </b-field>
+        <!-- <div>
+          <v-swatches v-model="color" show-fallback popover-x="left" />
+        </div> -->
+        <b-field
+          label="Search"
+          placeholder="Type to search..."
+        >
+          <b-input v-model="searchKeyword" />
+        </b-field>
       </div>
     </aside>
 
     <div class="container column is-10">
       <section class="section">
         <div class="columns is-mobile is-multiline ">
-          <div v-for="(icon, index) in iconsData.icons" :key="index" class="column is-one-fifth">
+          <div v-for="(icon, index) in filteredIcons" :key="index" class="column is-one-fifth">
             <div class="icon-card" @click="copyIcon(icon.name)">
               <div v-if="isIconSelected(icon.name)">
                 Copied!
@@ -41,7 +50,7 @@ import { Component, Vue } from 'nuxt-property-decorator'
 import VSwatches from 'vue-swatches'
 import 'vue-swatches/dist/vue-swatches.css'
 import { IconConfig } from '../gallery/config'
-import { getIconUrl } from '../gallery/UtilFunctions'
+import { getIconUrl, filterIconByNameOrTag } from '../gallery/UtilFunctions'
 
 @Component({
   components: {
@@ -52,6 +61,15 @@ export default class extends Vue {
   iconsData : IconConfig = new IconConfig()
   color = '#0000FF'
   selectedIcon = ''
+  searchKeyword = ''
+
+  get filteredIcons () {
+    if (this.searchKeyword.length > 0) {
+      return this.iconsData.icons.filter(i => filterIconByNameOrTag(i, this.searchKeyword))
+    } else {
+      return this.iconsData.icons
+    }
+  }
 
   getImgUrl (name: string) {
     return getIconUrl(this.iconsData.url, this.iconsData.style, this.iconsData.size, this.color, name)
