@@ -5,7 +5,7 @@ interface IIconInfo {
   tags: Array<string>
 }
 
-class IconInfo implements IIconInfo {
+export class IconInfo implements IIconInfo {
   name: string
   tags: Array<string>
 
@@ -32,5 +32,3 @@ export class IconConfig {
     })
   }
 }
-const iconsData: IconConfig = new IconConfig()
-export default iconsData
