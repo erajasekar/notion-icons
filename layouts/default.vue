@@ -22,3 +22,9 @@ import BottomFooter from '@/components/BottomFooter.vue'
 export default class extends Vue {
 }
 </script>
+
+<style>
+  body {
+    background-color: #FAFAFA;
+  }
+</style>
