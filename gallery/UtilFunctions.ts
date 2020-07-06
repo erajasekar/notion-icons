@@ -5,5 +5,5 @@ export function getIconUrl (baseUrl: string, style: string, size: string, color:
 }
 
 export function filterIconByNameOrTag (icon: IIconInfo, searchKeyword: string) {
-  return icon.name.includes(searchKeyword) || icon.tags.filter(t => t.includes(searchKeyword)).length > 0
+  return icon.name.includes(searchKeyword) || icon.tags.findIndex(t => t.includes(searchKeyword)) >= 0
 }
