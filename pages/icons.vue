@@ -37,6 +37,9 @@
                   v-else-if="isIconHover(icon.name)"
                   icon="content-copy"
                 />
+                <p v-else>
+                  &nbsp;
+                </p>
               </div>
               <div class="">
                 <div class="level">
