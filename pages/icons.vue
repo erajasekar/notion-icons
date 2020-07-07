@@ -1,34 +1,32 @@
 <template>
   <section class="main-content columns">
-    <aside class="column is-2 section">
-      <div class="field">
-        <b-field label="Pick color">
-          <v-swatches v-model="color" show-fallback popover-x="left" />
-        </b-field>
+    <aside class="column is-2 section side-nav">
+      <div>
         <b-field
           label="Search"
           placeholder="Type to search..."
         >
           <b-input v-model="searchKeyword" />
         </b-field>
-        <div class="field">
+        <b-field horizontal label="Color" class="mt-10">
+          <v-swatches v-model="color" show-fallback popover-x="left" />
+        </b-field>
+        <b-field horizontal :label="toggleMode" class="mt-10">
           <b-switch
             v-model="isDarkMode"
             type="is-warn"
             passive-type="is-dark"
             outlined
-          >
-            {{ isDarkMode ? "Light Mode" : "Dark Mode" }}
-          </b-switch>
-        </div>
+          />
+        </b-field>
       </div>
     </aside>
 
     <div class="container column is-10">
-      <section :class="applyTheme">
+      <section :class="applyContainerTheme">
         <div class="columns is-mobile is-multiline">
           <div v-for="(icon, index) in filteredIcons" :key="index" class="column is-one-fifth">
-            <div class="icon-card" @click="copyIcon(icon.name)" @mouseover="iconHover(icon.name,true)" @mouseleave="iconHover(icon.name,false)">
+            <div :class="applyCardTheme" @click="copyIcon(icon.name)" @mouseover="iconHover(icon.name,true)" @mouseleave="iconHover(icon.name,false)">
               <div class="has-text-centered pb-5 pt-5">
                 <p v-if="isIconSelected(icon.name)">
                   Copied!
@@ -44,14 +42,14 @@
               <div class="">
                 <div class="level">
                   <div class="level-item has-text-centered">
-                    <figure class="image is-64x64">
+                    <figure class="image is-48x48">
                       <img :ref="icon.name" :src="getImgUrl(icon.name)">
                     </figure>
                   </div>
                 </div>
               </div>
               <footer class="">
-                <div class="subtitle has-text-centered pt-5 pb-5">
+                <div class="has-text-centered pt-5 pb-5">
                   {{ icon.name }}
                 </div>
               </footer>
@@ -78,7 +76,7 @@ import { getIconUrl, filterIconByNameOrTag } from '../gallery/UtilFunctions'
 })
 export default class extends Vue {
   iconsData : IconConfig = new IconConfig()
-  color = '#0000FF'
+  color = '#2980B9'
   selectedIcon = ''
   hoverIcon = ''
   searchKeyword = ''
@@ -94,6 +92,10 @@ export default class extends Vue {
 
   getImgUrl (name: string) {
     return getIconUrl(this.iconsData.url, this.iconsData.style, this.iconsData.size, this.color, name)
+  }
+
+  get toggleMode () {
+    return this.isDarkMode ? 'Light' : 'Dark'
   }
 
   isIconSelected (name: string) {
@@ -119,12 +121,20 @@ export default class extends Vue {
     }
   }
 
-  get applyTheme () {
-    let style = 'section mt-10'
+  get applyContainerTheme () {
+    let style = 'section box icon-container'
     if (this.isDarkMode) {
       style = style + ' dark'
     }
     return style
+  }
+
+  get applyCardTheme () {
+    if (this.isDarkMode) {
+      return 'dark-icon-card'
+    } else {
+      return 'light-icon-card'
+    }
   }
 }
 </script>
@@ -145,20 +155,29 @@ export default class extends Vue {
     max-width: 100%;
   }*/
 
+  .side-nav {
+    margin: 50px 10px 20px 20px;
+    border: 1px solid #ddd;
+  }
+  .icon-container {
+    margin: 40px 10px 10px 10px;
+  }
   .is-horizontal-center {
     justify-content: center;
   }
 
-  div.icon-card:hover{
+  div.light-icon-card:hover{
     /*box-shadow: 0 2px 3px rgba(10, 10, 10, 0.1), 0 0 0 1px rgba(10, 10, 10, 0.1);
     color: #4a4a4a;*/
-    background-color: whitesmoke;
+    background-color: #f2f2f2;
+    border: 1px solid #ddd;
   }
-  div.dark-card:hover{
+  div.dark-icon-card:hover{
     background-color: #34393d;
+    border: 1px solid #666;
   }
-  div.dark-card{
+  div.dark-icon-card{
     background-color: #2F3437;
-    color: #f2f2f2;
+    color: white;
   }
 </style>

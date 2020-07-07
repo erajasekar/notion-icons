@@ -24,10 +24,14 @@ export default class extends Vue {
 </script>
 
 <style>
+  @import url('https://fonts.googleapis.com/css?family=KoHo|Share+Tech+Mono|Roboto|Titillium+Web');
   body {
+    font-family: 'Titillium Web', 'Source Sans Pro', -apple-system, BlinkMacSystemFont,
+   'Helvetica Neue', Arial, sans-serif;
     background-color: #FAFAFA;
     background-image: url("~assets/background8.png")
   }
+  /**  TODO */
   .dark {
     background-color: #2F3437;
     color: white;
