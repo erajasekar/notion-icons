@@ -2,15 +2,9 @@
   <section class="main-content columns">
     <aside class="column is-2 section">
       <div class="field">
-        <!-- <div class="form__label">
-          <strong>Pick color:</strong>
-        </div> -->
         <b-field label="Pick color">
           <v-swatches v-model="color" show-fallback popover-x="left" />
         </b-field>
-        <!-- <div>
-          <v-swatches v-model="color" show-fallback popover-x="left" />
-        </div> -->
         <b-field
           label="Search"
           placeholder="Type to search..."
@@ -32,16 +26,16 @@
 
     <div class="container column is-10">
       <section :class="applyTheme">
-        <div class="columns is-mobile is-multiline ">
-          <div v-for="(icon, index) in filteredIcons" :key="index" class="column is-one-fifth">
-            <div class="icon-card dark" @click="copyIcon(icon.name)">
+        <div class="columns is-mobile is-multiline tile is-ancestor">
+          <div v-for="(icon, index) in filteredIcons" :key="index" class="column is-one-fifth tile is-parent">
+            <div class="tile is-child box dark-card" @click="copyIcon(icon.name)">
               <div v-if="isIconSelected(icon.name)">
                 Copied!
               </div>
-              <div>
+              <div class="title">
                 <img :ref="icon.name" height="50px" width="50px" :src="getImgUrl(icon.name)">
               </div>
-              <footer class="">
+              <footer class="subtitle">
                 <div class="">
                   {{ icon.name }}
                 </div>
@@ -126,8 +120,12 @@ export default class extends Vue {
     box-shadow: 0 2px 3px rgba(10, 10, 10, 0.1), 0 0 0 1px rgba(10, 10, 10, 0.1);
     color: #4a4a4a;
   }
-  div.icon-card.dark:hover{
+  div.dark-card:hover{
     box-shadow: 5 2px 3px rgba(10, 10, 10, 0.1), 0 0 0 1px rgba(10, 10, 10, 0.1);
     color: white;
   }
+  /* div.dark-card{
+    background-color: #2F3437;
+    color: white;
+  } */
 </style>
