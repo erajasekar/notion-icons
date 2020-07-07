@@ -143,6 +143,7 @@ export default class extends Vue {
   .side-nav {
     margin: 50px 10px 20px 20px;
     border: 1px solid #ddd;
+    background-color: #E7F9EB;
   }
 
   .icon-container {
