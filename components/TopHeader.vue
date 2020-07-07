@@ -1,5 +1,5 @@
 <template>
-  <section class="hero bg-green-400 max-w-full border-b-4 border-green-800">
+  <section class="hero bg-teal-300 max-w-full border-b-4 border-teal-800">
     <div class="hero-body">
       <div class="container has-text-centered">
         <h1 class="title">
@@ -13,7 +13,7 @@
 
     <div class="hero-foot">
       <nav class="tabs is-boxed is-fullwidth">
-        <div class="container">
+        <div class="container subtitle">
           <ul>
             <li :class="isMenuActive('index')">
               <a href="/">Home</a>
@@ -43,14 +43,14 @@ export default class extends Vue {
 <style scoped>
 
 .tabs.is-boxed li.is-active a {
-    background-color: #32855B;
-    border-color: #32855B;
+    background-color: #3F9795;
+    border-color: #3F9795;
     border-bottom-color: transparent !important;
     color: white;
 }
 
 .tabs.is-boxed li a:hover {
-    background-color: #49BB78;
+    background-color: #B2F5E9;
 }
 
 </style>
