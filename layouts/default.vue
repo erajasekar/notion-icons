@@ -26,6 +26,7 @@ export default class extends Vue {
 <style>
   body {
     background-color: #FAFAFA;
+    background-image: url("~assets/background8.png")
   }
   .dark {
     background-color: #2F3437;
