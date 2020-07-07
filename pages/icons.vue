@@ -140,43 +140,31 @@ export default class extends Vue {
 </script>
 
 <style scoped>
-  /*.card-footer {
-    border: 0px;
-  }
-  .card {
-    background-color: white;
-    box-shadow: 0 2px 3px rgba(10, 10, 10, 0.1), 0 0 0 1px rgba(10, 10, 10, 0.1);
-    color: #4a4a4a;
-    max-width: 100%;
-    position: relative;
-}
-  .card {
-    border: 10px;
-    max-width: 100%;
-  }*/
-
   .side-nav {
     margin: 50px 10px 20px 20px;
     border: 1px solid #ddd;
   }
+
   .icon-container {
     margin: 40px 10px 10px 10px;
   }
-  .is-horizontal-center {
-    justify-content: center;
-  }
 
-  div.light-icon-card:hover{
-    /*box-shadow: 0 2px 3px rgba(10, 10, 10, 0.1), 0 0 0 1px rgba(10, 10, 10, 0.1);
-    color: #4a4a4a;*/
+  .light-icon-card:hover{
     background-color: #f2f2f2;
     border: 1px solid #ddd;
   }
-  div.dark-icon-card:hover{
+
+  .dark-icon-card:hover{
     background-color: #34393d;
     border: 1px solid #666;
   }
-  div.dark-icon-card{
+
+  .dark-icon-card{
+    background-color: #2F3437;
+    color: white;
+  }
+
+  .dark {
     background-color: #2F3437;
     color: white;
   }
