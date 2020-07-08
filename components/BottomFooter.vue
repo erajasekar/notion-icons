@@ -5,7 +5,7 @@
         Made by &nbsp; <a href="https://twitter.com/erajasekar" class="text-yellow-400 hover:text-yellow-600"> @erajasekar</a>.
       </p>
       <p class="level-item text-white">
-        Powered by  &nbsp; <a href="https://icons8.com/license" class="text-yellow-400 hover:text-yellow-600"> Icons8</a>.
+        Free to use Icons provided by &nbsp; <a href="https://icons8.com/license" class="text-yellow-400 hover:text-yellow-600"> Icons8</a>.
       </p>
     </div>
   </footer>
