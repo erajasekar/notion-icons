@@ -74,7 +74,7 @@ import { getIconUrl, filterIconByNameOrTag } from '../gallery/UtilFunctions'
     VSwatches
   }
 })
-export default class extends Vue {
+export default class IconGallery extends Vue {
   iconsData : IconConfig = new IconConfig()
   color = '#2980B9'
   selectedIcon = ''
