@@ -19,7 +19,7 @@ import BottomFooter from '@/components/BottomFooter.vue'
     BottomFooter
   }
 })
-export default class extends Vue {
+export default class Layout extends Vue {
 }
 </script>
 

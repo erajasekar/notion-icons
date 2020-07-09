@@ -1,6 +1,6 @@
 import data from '../config/icons-config.json'
 
-interface IIconInfo {
+export interface IIconInfo {
   name: string
   tags: Array<string>
 }
