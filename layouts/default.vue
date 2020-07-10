@@ -31,10 +31,15 @@ export default class Layout extends Vue {
     background-color: #FAFAFA;
     background-image: url("~assets/background8.png")
   }
-  /**  TODO */
-  .dark {
-    background-color: #2F3437;
-    color: white;
+
+  /* Sticky footer, doesn't work with less search results */
+  /* .site {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
   }
 
+  .main {
+    flex: 1;
+  } */
 </style>
