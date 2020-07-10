@@ -360,27 +360,27 @@
                 },
                 {
                     "name" : "react-native", 
-                    "tags" : []
+                    "tags" : ["app"]
                 },
                 {
                     "name" : "read", 
-                    "tags" : []
+                    "tags" : ["book", "education"]
                 },
                 {
                     "name" : "reading", 
-                    "tags" : []
+                    "tags" : ["book", "education"]
                 },
                 {
                     "name" : "rocket", 
-                    "tags" : []
+                    "tags" : ["startup", "app"]
                 },
                 {
                     "name" : "scholarship", 
-                    "tags" : []
+                    "tags" : ["school", "education"]
                 },
                 {
                     "name" : "school", 
-                    "tags" : []
+                    "tags" : ["book", "education"]
                 },
                 {
                     "name" : "scroll", 
@@ -392,11 +392,11 @@
                 },
                 {
                     "name" : "sheets", 
-                    "tags" : []
+                    "tags" : ["apps"]
                 },
                 {
                     "name" : "smart-playlist", 
-                    "tags" : []
+                    "tags" : ["music"]
                 },
                 {
                     "name" : "solar-cross", 
@@ -404,35 +404,35 @@
                 },
                 {
                     "name" : "source-code", 
-                    "tags" : []
+                    "tags" : ["computer-science", "programming"]
                 },
                 {
                     "name" : "space-shuttle", 
-                    "tags" : []
+                    "tags" : ["startup"]
                 },
                 {
                     "name" : "spiral-bound-booklet", 
-                    "tags" : []
+                    "tags" : ["book", "education"]
                 },
                 {
                     "name" : "star-of-david", 
-                    "tags" : []
+                    "tags" : ["favorite","favourite"]
                 },
                 {
                     "name" : "student-female", 
-                    "tags" : []
+                    "tags" : ["school", "education"]
                 },
                 {
                     "name" : "student-male", 
-                    "tags" : []
+                    "tags" : ["school", "education"]
                 },
                 {
                     "name" : "suitcase", 
-                    "tags" : []
+                    "tags" : ["business", "work"]
                 },
                 {
                     "name" : "sun", 
-                    "tags" : []
+                    "tags" : ["bright"]
                 },
                 {
                     "name" : "synagogue", 
@@ -440,7 +440,7 @@
                 },
                 {
                     "name" : "table-of-content", 
-                    "tags" : []
+                    "tags" : ["list", "menu"]
                 },
                 {
                     "name" : "tabletop-radio", 
@@ -452,7 +452,7 @@
                 },
                 {
                     "name" : "thinking-bubble", 
-                    "tags" : []
+                    "tags" : ["think", "idea"]
                 },
                 {
                     "name" : "time-management", 
@@ -460,27 +460,19 @@
                 },
                 {
                     "name" : "todo-list", 
-                    "tags" : []
+                    "tags" : ["task", "goal"]
                 },
                 {
                     "name" : "training", 
-                    "tags" : []
-                },
-                {
-                    "name" : "transformation-skill", 
-                    "tags" : []
-                },
-                {
-                    "name" : "type", 
-                    "tags" : []
+                    "tags" : ["teach", "education" ]
                 },
                 {
                     "name" : "university", 
-                    "tags" : []
+                    "tags" : ["education", "school"]
                 },
                 {
                     "name" : "video", 
-                    "tags" : []
+                    "tags" : ["play"]
                 },
                 {
                     "name" : "video-call", 
@@ -496,7 +488,7 @@
                 },
                 {
                     "name" : "visible", 
-                    "tags" : []
+                    "tags" : ["eye"]
                 },
                 {
                     "name" : "visualization-skill", 
@@ -504,15 +496,15 @@
                 },
                 {
                     "name" : "weak-financial-growth", 
-                    "tags" : []
+                    "tags" : ["money"]
                 },
                 {
                     "name" : "web-design", 
-                    "tags" : []
+                    "tags" : ["programming", "computer-science"]
                 },
                 {
                     "name" : "youtube", 
-                    "tags" : []
+                    "tags" : ["social"]
                 }
             ]
         }
