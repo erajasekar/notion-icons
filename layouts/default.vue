@@ -33,7 +33,7 @@ export default class Layout extends Vue {
   }
 
   /* Sticky footer, doesn't work with less search results */
-  /* .site {
+  .site {
     display: flex;
     min-height: 100vh;
     flex-direction: column;
@@ -41,5 +41,6 @@ export default class Layout extends Vue {
 
   .main {
     flex: 1;
-  } */
+    min-width: 70vw;
+  }
 </style>
