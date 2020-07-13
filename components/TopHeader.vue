@@ -5,8 +5,8 @@
         <h1 class="title">
           Notion Icons
         </h1>
-        <h2 class="italic text-lg text-grey-700">
-          Tool to simplify using Icons in Notion
+        <h2 class="italic text-xl text-grey-700">
+          Beautify your notes with colorful icons.
         </h2>
       </div>
     </div>
@@ -21,6 +21,11 @@
             <li :class="isMenuActive('icons')">
               <nuxt-link to="/icons">
                 Icons
+              </nuxt-link>
+            </li>
+            <li :class="isMenuActive('about')">
+              <nuxt-link to="/about">
+                About
               </nuxt-link>
             </li>
           </ul>
