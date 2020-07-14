@@ -7,7 +7,7 @@
         </h1>
         <p class="text-lg">
           Are you a <a href="http://notion.so/" target="_blank"> Notion </a> user ?
-          Do you want to organize your notes with beautiful Icons ? You have landed at right website.
+          Do you want to organize your notes with beautiful Icons ? This is a tool for you!
         </p>
       </div>
       <section class="hero card">
