@@ -6,7 +6,7 @@
           Notion Icons
         </h1>
         <h2 class="italic text-xl text-grey-700">
-          Beautify your notes with colorful icons.
+          Easily add beautiful Icons to your Notion Notes.
         </h2>
       </div>
     </div>
