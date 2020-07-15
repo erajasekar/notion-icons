@@ -49,9 +49,9 @@
                 </div>
               </div>
               <footer class="">
-                <div class="has-text-centered pt-5 pb-5">
+                <p class="has-text-centered pt-5 pb-5">
                   {{ icon.name }}
-                </div>
+                </p>
               </footer>
             </div>
           </div>
@@ -168,5 +168,9 @@ export default class IconGallery extends Vue {
   .dark {
     background-color: #2F3437;
     color: white;
+  }
+
+  p {
+    font-family: Share Tech Mono,monospace;
   }
 </style>
