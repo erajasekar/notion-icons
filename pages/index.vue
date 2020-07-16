@@ -17,7 +17,7 @@
       <div class="hero-body text-gray-900">
         <div class="container">
           <h1 class="title">
-            Why do you want to use ?
+            Why use it ?
           </h1>
           <p class="text-2xl">
             Notions comes with only limited set of icons. We can get beautiful icons from many websites like
@@ -42,7 +42,7 @@
             How to use it ?
           </h1>
           <div class="text-2xl">
-            <ul>
+            <ol>
               <li>
                 Go to
                 <nuxt-link to="/icons">
@@ -50,19 +50,16 @@
                 </nuxt-link>
               </li>
               <li>
-                Type keywords in Search box to filter icons.
+                Type keywords in <code>Search box</code> to filter icons.
               </li>
               <li>
                 You can customize color by clicking color swatch.
               </li>
               <li>
-                If you use dark mode in Notion, you can toggle Dark mode button to see how it looks in dark mode.
+                If you use dark mode in Notion, you can toggle <code>Dark mode button</code> to see how it looks in dark mode.
               </li>
               <li>
                 Click on the Icon to copy url to clipboard.
-              </li>
-              <li>
-                If you use dark mode in Notion, you can toggle Dark mode button to see how it looks in dark mode.
               </li>
               <li>
                 Go to your Notion app, click on icon, go to Link tab and paste the copied url.
@@ -70,7 +67,7 @@
               <li>
                 Hit Enter. The icon will be updated.
               </li>
-            </ul>
+            </ol>
           </div>
         </div>
       </div>
@@ -88,7 +85,14 @@
   }
 
   blockquote {
-    background-color: white
+    background-color: #E7F9EB;
+    font-style: italic;
+    font-weight: 600;
+    border-left: 5px solid #374454;
+  }
+
+  h1 {
+    color: #374454
   }
 
   .why-card {
