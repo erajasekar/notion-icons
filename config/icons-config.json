@@ -505,7 +505,66 @@
                 {
                     "name" : "youtube", 
                     "tags" : ["social"]
+                },
+                {
+                    "name" : "clock", 
+                    "tags" : ["time"]
+                },
+                {
+                    "name" : "example", 
+                    "tags" : [""]
+                },
+                {
+                    "name" : "proactivity", 
+                    "tags" : ["motivation"]
                 }
+                ,
+                {
+                    "name" : "saving-book", 
+                    "tags" : ["course", "education"]
+                },
+                {
+                    "name" : "classroom", 
+                    "tags" : ["course", "education"]
+                },
+                {
+                    "name" : "note", 
+                    "tags" : ["read"]
+                },
+                {
+                    "name" : "storytelling", 
+                    "tags" : [""]
+                },
+                {
+                    "name" : "activity-history", 
+                    "tags" : [""]
+                },
+                {
+                    "name" : "historical", 
+                    "tags" : [""]
+                },
+                {
+                    "name" : "blockchain-technology", 
+                    "tags" : [""]
+                },
+                {
+                    "name" : "controller", 
+                    "tags" : [""]
+                },
+                {
+                    "name" : "literature", 
+                    "tags" : [""]
+                },
+                {
+                    "name" : "manual", 
+                    "tags" : [""]
+                },
+                {
+                    "name" : "library", 
+                    "tags" : ["education"]
+                }
+
+                
             ]
         }
     }
