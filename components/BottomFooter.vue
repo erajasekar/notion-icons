@@ -1,5 +1,5 @@
 <template>
-  <footer class="mt-5 p-5 bg-indigo-900">
+  <footer class="mt-5 p-5">
     <div class="level font-bold text-yellow-200 text-xl">
       <p class="level-item text-white">
         By &nbsp; <a href="https://twitter.com/erajasekar" class="text-yellow-400 hover:text-yellow-600"> @erajasekar</a>.
@@ -10,3 +10,8 @@
     </div>
   </footer>
 </template>
+<style scoped>
+  footer {
+    background-color: #374454;
+  }
+</style>

@@ -19,15 +19,18 @@
           <h1 class="title">
             Why do you want to use ?
           </h1>
-          <p class="text-2xl ">
+          <p class="text-2xl">
             Notions comes with only limited set of icons. We can get beautiful icons from many websites like
             <a href="https://icons8.com/" target="_blank"> Icon8 </a> ,
             <a href="https://www.flaticon.com/" target="_blank"> Flaticon </a> .
-            But it is painful to add icons from those websites to notion notes. Because you need to first find the right icon
-            from 1000 of icons, then customize and download to your computer. After that you can upload new icon to Notion.
+            But it is painful to add icons from those websites to notion notes.
+          </p>
+          <p class="text-2xl" >
+            You need to first find the right icon from 1000 of icons, then customize and download to your computer.
+            After that you can upload new icon to Notion.
           </p>
           <blockquote class="text-2xl">
-            Notion icons alleviate the pain. Now, You can easily add beautiful icons to your notes.
+            Now, You can easily add beautiful icons to your notes using Notion Icons.
           </blockquote>
         </div>
       </div>
@@ -82,6 +85,10 @@
 <style scoped>
   p, blockquote {
     font-family: KoHo,sans-serif;
+  }
+
+  blockquote {
+    background-color: white
   }
 
   .why-card {
