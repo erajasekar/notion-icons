@@ -7,6 +7,10 @@ assignees: erajasekar
 
 ---
 
+PLEASE CLICK ON PREVIEW TO READ INSTRUCTIONS AND SWITCHBACK WRITE TAB TO PROVIDE DETAILS.
+
+---
+
 ### Find Icons you want to add from Icons8
 
 * Go to [Icons8 Material style icons](https://icons8.com/icons/material)
