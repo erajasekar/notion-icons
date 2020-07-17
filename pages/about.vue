@@ -86,7 +86,7 @@
                   Icon name is <code>facebook-new</code>
                 </li>
                 <li>
-                  Notion Icons <a href="https://github.com/erajasekar/notion-icons/" target="_blank">Git Repo</a>.
+                  Fork Notion Icons <a href="https://github.com/erajasekar/notion-icons/" target="_blank">Git Repo</a>.
                 </li>
                 <li>
                   Open file <code>/config/icons-config.json</code> in your favorite editor.
