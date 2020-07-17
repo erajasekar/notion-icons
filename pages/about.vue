@@ -13,8 +13,8 @@
               method to save resources I learn from all sources like blogs, videos , podcasts, books etc.
               I like using colorful Icons in notes as it gives a quick visual context. Here is example from my Notion.
             </p>
-            <figure class="image box">
-              <img class="card" width="70%" src="~assets/notions-related-icons.png" alt="Raja Notion Screen shot">
+            <figure class="image">
+              <img class="box" src="~assets/notions-related-icons.png" alt="Raja Notion Screen shot">
             </figure>
             <p>
               Notions comes with only limited set of icons. We can get beautiful icons from many websites like
@@ -125,40 +125,42 @@
               <h3>
                 I am not familiar with using Github pull request , Is there another way request Icons ?
               </h3>
-              <p class="text-lg">
-                Answer
+              <p>
+                Please submit a issue in <a href="https://github.com/erajasekar/notion-icons/issues" target="_blank">Github</a>.
               </p>
             </div>
             <div class="qa">
               <h3>
                 Can I request other style of icons from icon8 icons or icons from other sites flaticon?
               </h3>
-              <p class="text-lg">
-                Answer
+              <p>
+                No. The currently only Icon8 Material Icons are only supported.
               </p>
             </div>
             <div class="qa">
               <h3>
                 Is it free to use ?
               </h3>
-              <p class="text-lg">
-                Answer
+              <p>
+                You can use Icons8 for free, but link to Icons8 website.
+                Please see <a href="https://icons8.com/license" target="_blank">license terms </a> for more information.
               </p>
             </div>
             <div class="qa">
               <h3>
-                The is hosted at notion.erajasekar.com ? Will there any problem if tools move to different address ?
+                Notions Icons hosted at your personal domain ? Will there any problem if this tool move to different address ?
               </h3>
-              <p class="text-lg">
-                Answer
+              <p>
+                The icons are not served from <code>notion.erajasekar.com</code>. The copied Icon url is original img src from Icon8.
+                So there won't be any this tool moves to different domain in future.
               </p>
             </div>
             <div class="qa">
               <h3>
                 I found some problems or something is not working, What should I do ?
               </h3>
-              <p class="text-lg">
-                Answer
+              <p>
+                Please submit a issue in <a href="https://github.com/erajasekar/notion-icons/issues" target="_blank">Github</a>.
               </p>
             </div>
           </div>
@@ -207,6 +209,10 @@ export default class About extends Vue {
 
   .card {
     box-shadow: 0 2px 2px 0 rgba(34, 41, 47, 0.05), 0 8px 8px 0 rgba(34, 41, 47, 0.05);
+  }
+
+  .image img {
+    width: 70%;
   }
 
 </style>
