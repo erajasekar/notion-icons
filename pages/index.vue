@@ -25,10 +25,6 @@
             <a href="https://www.flaticon.com/" target="_blank"> Flaticon </a> .
             But it is painful to add icons from those websites to notion notes.
           </p>
-          <p class="text-2xl" >
-            You need to first find the right icon from 1000 of icons, then customize and download to your computer.
-            After that you can upload new icon to Notion.
-          </p>
           <blockquote class="text-2xl">
             Now, You can easily add beautiful icons to your notes using Notion Icons.
           </blockquote>
