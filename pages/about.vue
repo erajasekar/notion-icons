@@ -123,10 +123,22 @@
             </div>
             <div class="qa">
               <h3>
-                I am not familiar with using Github pull request , Is there another way request Icons ?
+                I am not familiar with using Github pull request, Is there another way request Icons ?
               </h3>
               <p>
-                Please submit a issue in <a href="https://github.com/erajasekar/notion-icons/issues" target="_blank">Github</a>.
+                Github pull request is the preffered and fasted method. But if you can't do it, no worries.
+                You can file Github issue by following these steps:
+                <ul>
+                  <li>
+                    Go to <a href="https://github.com/erajasekar/notion-icons/issues/new/choose" target="_blank">Github Issues</a>.
+                  </li>
+                  <li>
+                    Click on <code>Get started</code> button next to <code>New Icon Add Request</code>
+                  </li>
+                  <li>
+                    Please follow instructions on the issue template.
+                  </li>
+                </ul>
               </p>
             </div>
             <div class="qa">
@@ -160,7 +172,8 @@
                 I found some problems or something is not working, What should I do ?
               </h3>
               <p>
-                Please submit a issue in <a href="https://github.com/erajasekar/notion-icons/issues" target="_blank">Github</a>.
+                Please submit a issue Github. Go to <a href="https://github.com/erajasekar/notion-icons/issues/new/choose" target="_blank">Github</a>.
+                Click on <code>Get started</code> button next to <code>Bug report</code>. Follow the instructions on template.
               </p>
             </div>
           </div>
