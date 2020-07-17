@@ -39,23 +39,91 @@
             </h2>
             <div class="qa">
               <h3>
+                Why there is only limited set of Icons available ?
+              </h3>
+              <p>
+                I have only added Icons I use in My Notion. More icons we add, it becomes harder to choose right one
+                (<a href="https://en.wikipedia.org/wiki/The_Paradox_of_Choice" target="_blank"> Paradox Of Choice </a>).
+                I would like to crowd source best Icons for Notion from the community. So please feel to
+                <a @click="scrollTo('how-to-contribute')">contribute. </a>
+              </p>
+            </div>
+            <div class="qa">
+              <h3>
+                How is current icons currated ?
+              </h3>
+              <p>
+                After experimenting with different style of Icons from both
+                <a href="https://icons8.com/" target="_blank"> Icon8 </a> ,
+                <a href="https://www.flaticon.com/" target="_blank"> Flaticon </a>.
+                I found <a href="https://icons8.com/icons/material" target="_blank">  Material filled style icons </a>
+                looks best on Notion. Also it's easy to customize the icon color in icon8 so that it will look beautiful in both light and dark mode.
+              </p>
+              <p>
+                So I have decided to include material filled icons from Icon8.
+              </p>
+            </div>
+            <div class="qa">
+              <h3>
                 I don't find the Icon I want, What should I do ?
               </h3>
-              <p class="">
-                Answer
+              <p ref="how-to-contribute">
+                Please follow these instructions to contribute more Icons.
               </p>
+              <ol>
+                <li>
+                  Go to <a href="https://icons8.com/icons/material" target="_blank"> Icons8 Material style icons </a>.
+                </li>
+                <li>
+                  Search for your icon with keyword. For e.g <code>facebook</code>.
+                </li>
+                <li>
+                  Click on the icon you want and click <code>Embed HTML Button</code>.
+                </li>
+                <li>
+                  Copy name of the icon from last part of img src url.
+                  For eg. In url <code>https://img.icons8.com/material/24/000000/facebook-new.png</code>.
+                  Icon name is <code>facebook-new</code>
+                </li>
+                <li>
+                  Notion Icons <a href="https://github.com/erajasekar/notion-icons/" target="_blank">Git Repo</a>.
+                </li>
+                <li>
+                  Open file <code>/config/icons-config.json</code> in your favorite editor.
+                </li>
+                <li>
+                  Add a new section for icon with <code>name</code> and <code>tags</code>.
+                  <ul>
+                    <li>
+                      For name, use <code>name</code> copied from img url.
+                    </li>
+                    <li>
+                      Optionally add any other search keywords to <code>tags</code>. For eg adding "social" to facebook icon will make this show if you search for "social".
+                    </li>
+                    <li>
+                      Example code for above facebook icon.
+                      <div class="mt-5" style="background: #f8f8f8; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .2em;padding:.2em .6em;">
+                        <pre style="margin: 0; line-height: 125%">
+                          {
+                            <span style="color: #008000; font-weight: bold">&quot;name&quot;</span> : <span style="color: #BA2121">&quot;facebook-new&quot;</span>,
+                            <span style="color: #008000; font-weight: bold">&quot;tags&quot;</span> : [<span style="color: #BA2121">&quot;social&quot;</span>]
+                          }
+                        </pre>
+                      </div>
+                    </li>
+                  </ul>
+                </li>
+                <li>
+                  Commit and send a pull request in Github.
+                </li>
+                <li>
+                  Once your code is merged, it will be show up notion icons.
+                </li>
+              </ol>
             </div>
             <div class="qa">
               <h3>
                 I am not familiar with using Github pull request , Is there another way request Icons ?
-              </h3>
-              <p class="text-lg">
-                Answer
-              </p>
-            </div>
-            <div class="qa">
-              <h3>
-                How are current list of icons currated ?
               </h3>
               <p class="text-lg">
                 Answer
@@ -100,21 +168,37 @@
   </section>
 </template>
 
-<script>
+<script lang="ts">
 
+import { Component, Vue } from 'nuxt-property-decorator'
+
+@Component
+export default class About extends Vue {
+  scrollTo (refName: any) {
+    const offsetTopProperty = 'offsetTop'
+    const top = (this.$refs[refName] as any)[offsetTopProperty]
+    window.scrollTo(0, top)
+  }
+}
 </script>
-
 <style scoped>
 
   h1, h2 {
     color: #EC2D2A
   }
 
+  h3 {
+    color: #2c7a7b
+  }
+
   p {
-    font-family: KoHo,sans-serif;
     font-size: x-large;
-    font-weight: 600;
-    color : #4a5568;
+    font-weight: 500;
+  }
+
+  li {
+    font-size: x-large;
+    line-height: 40px;
   }
 
   .qa {
