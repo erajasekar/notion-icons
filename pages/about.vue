@@ -37,145 +37,254 @@
             <h2 class=" mt-10 mb-16">
               Frequently Asked Questions
             </h2>
-            <div class="qa">
-              <h3>
-                Why there is only limited set of Icons available ?
-              </h3>
-              <p>
-                I have only added Icons I use in My Notion. More icons we add, it becomes harder to choose right one
-                (<a href="https://en.wikipedia.org/wiki/The_Paradox_of_Choice" target="_blank"> Paradox Of Choice </a>).
-                I would like to crowd source best Icons for Notion from the community. So please feel to
-                <a @click="scrollTo('how-to-contribute')">contribute. </a>
-              </p>
-            </div>
-            <div class="qa">
-              <h3>
-                How is current icons currated ?
-              </h3>
-              <p>
-                After experimenting with different style of Icons from both
-                <a href="https://icons8.com/" target="_blank"> Icon8 </a> ,
-                <a href="https://www.flaticon.com/" target="_blank"> Flaticon </a>.
-                I found <a href="https://icons8.com/icons/material" target="_blank">  Material filled style icons </a>
-                looks best on Notion. Also it's easy to customize the icon color in icon8 so that it will look beautiful in both light and dark mode.
-              </p>
-              <p>
-                So I have decided to include material filled icons from Icon8.
-              </p>
-            </div>
-            <div class="qa">
-              <h3>
-                I don't find the Icon I want, What should I do ?
-              </h3>
-              <p ref="how-to-contribute">
-                Please follow these instructions to contribute more Icons.
-              </p>
-              <ol>
-                <li>
-                  Go to <a href="https://icons8.com/icons/material" target="_blank"> Icons8 Material style icons </a>.
-                </li>
-                <li>
-                  Search for your icon with keyword. For e.g <code>facebook</code>.
-                </li>
-                <li>
-                  Click on the icon you want and click <code>Embed HTML Button</code>.
-                </li>
-                <li>
-                  Copy name of the icon from last part of img src url.
-                  For eg. In url <code>https://img.icons8.com/material/24/000000/facebook-new.png</code>.
-                  Icon name is <code>facebook-new</code>
-                </li>
-                <li>
-                  Fork Notion Icons <a href="https://github.com/erajasekar/notion-icons/" target="_blank">Git Repo</a>.
-                </li>
-                <li>
-                  Open file <code>/config/icons-config.json</code> in your favorite editor.
-                </li>
-                <li>
-                  Add a new section for icon with <code>name</code> and <code>tags</code>.
-                  <ul>
-                    <li>
-                      For name, use <code>name</code> copied from img url.
-                    </li>
-                    <li>
-                      Optionally add any other search keywords to <code>tags</code>. For eg adding "social" to facebook icon will make this show if you search for "social".
-                    </li>
-                    <li>
-                      Example code for above facebook icon.
-                      <div class="mt-5" style="background: #f8f8f8; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .2em;padding:.2em .6em;">
-                        <pre style="margin: 0; line-height: 125%">
-                          {
-                            <span style="color: #008000; font-weight: bold">&quot;name&quot;</span> : <span style="color: #BA2121">&quot;facebook-new&quot;</span>,
-                            <span style="color: #008000; font-weight: bold">&quot;tags&quot;</span> : [<span style="color: #BA2121">&quot;social&quot;</span>]
-                          }
-                        </pre>
-                      </div>
-                    </li>
-                  </ul>
-                </li>
-                <li>
-                  Commit and send a pull request in Github.
-                </li>
-                <li>
-                  Once your code is merged, it will be show up notion icons.
-                </li>
-              </ol>
-            </div>
-            <div class="qa">
-              <h3>
-                I am not familiar with using Github pull request, Is there another way request Icons ?
-              </h3>
-              <p>
-                Github pull request is the preffered and fasted method. But if you can't do it, no worries.
-                You can file Github issue by following these steps:
-                <ul>
-                  <li>
-                    Go to <a href="https://github.com/erajasekar/notion-icons/issues/new/choose" target="_blank">Github Issues</a>.
-                  </li>
-                  <li>
-                    Click on <code>Get started</code> button next to <code>New Icon Add Request</code>
-                  </li>
-                  <li>
-                    Please follow instructions on the issue template.
-                  </li>
-                </ul>
-              </p>
-            </div>
-            <div class="qa">
-              <h3>
-                Can I request other style of icons from icon8 icons or icons from other sites flaticon?
-              </h3>
-              <p>
-                No. The currently only Icon8 Material Icons are only supported.
-              </p>
-            </div>
-            <div class="qa">
-              <h3>
-                Is it free to use ?
-              </h3>
-              <p>
-                You can use Icons8 for free, but link to Icons8 website.
-                Please see <a href="https://icons8.com/license" target="_blank">license terms </a> for more information.
-              </p>
-            </div>
-            <div class="qa">
-              <h3>
-                Notions Icons hosted at your personal domain ? Will there any problem if this tool move to different address ?
-              </h3>
-              <p>
-                The icons are not served from <code>notion.erajasekar.com</code>. The copied Icon url is original img src from Icon8.
-                So there won't be any this tool moves to different domain in future.
-              </p>
-            </div>
-            <div class="qa">
-              <h3>
-                I found some problems or something is not working, What should I do ?
-              </h3>
-              <p>
-                Please submit a issue Github. Go to <a href="https://github.com/erajasekar/notion-icons/issues/new/choose" target="_blank">Github</a>.
-                Click on <code>Get started</code> button next to <code>Bug report</code>. Follow the instructions on template.
-              </p>
-            </div>
+            <section class="qa">
+              <b-collapse class="card" animation="slide" aria-id="contentIdForA11y3" :open="false">
+                <div
+                  slot="trigger"
+                  slot-scope="props"
+                  class="card-header"
+                  role="button"
+                  aria-controls="contentIdForA11y3"
+                >
+                  <h3 class="card-header-title">
+                    Why there is only limited set of Icons available ?
+                  </h3>
+                  <a class="card-header-icon">
+                    <b-icon
+                      :icon="props.open ? 'menu-down' : 'menu-up'"
+                    />
+                  </a>
+                </div>
+                <div class="card-content">
+                  <p class="content">
+                    I have only added Icons I use in My Notion. More icons we add, it becomes harder to choose right one
+                    (<a href="https://en.wikipedia.org/wiki/The_Paradox_of_Choice" target="_blank"> Paradox Of Choice </a>).
+                    I would like to crowd source best Icons for Notion from the community. So please feel to
+                    <a @click="scrollTo('how-to-contribute')">contribute. </a>
+                  </p>
+                </div>
+              </b-collapse>
+            </section>
+            <section class="qa">
+              <b-collapse class="card" animation="slide" aria-id="contentIdForA11y3" :open="false">
+                <div
+                  slot="trigger"
+                  slot-scope="props"
+                  class="card-header"
+                  role="button"
+                  aria-controls="contentIdForA11y3"
+                >
+                  <h3 class="card-header-title">
+                    How is current icons currated ?
+                  </h3>
+                  <a class="card-header-icon">
+                    <b-icon
+                      :icon="props.open ? 'menu-down' : 'menu-up'"
+                    />
+                  </a>
+                </div>
+                <div class="card-content">
+                  <p class="content">
+                    After experimenting with different style of Icons from both
+                    <a href="https://icons8.com/" target="_blank"> Icon8 </a> ,
+                    <a href="https://www.flaticon.com/" target="_blank"> Flaticon </a>.
+                    I found <a href="https://icons8.com/icons/material" target="_blank">  Material filled style icons </a>
+                    looks best on Notion. Also it's easy to customize the icon color in icon8 so that it will look beautiful in both light and dark mode.
+                  </p>
+                </div>
+              </b-collapse>
+            </section>
+            <section ref="how-to-contribute" class="qa">
+              <b-collapse class="card" animation="slide" aria-id="contentIdForA11y3" :open="false">
+                <div
+                  slot="trigger"
+                  slot-scope="props"
+                  class="card-header"
+                  role="button"
+                  aria-controls="contentIdForA11y3"
+                >
+                  <h3 class="card-header-title">
+                    I don't find the Icon I want, What should I do ?
+                  </h3>
+                  <a class="card-header-icon">
+                    <b-icon
+                      :icon="props.open ? 'menu-down' : 'menu-up'"
+                    />
+                  </a>
+                </div>
+                <div class="card-content">
+                  <div class="content">
+                    <p>
+                      Please follow these instructions to contribute more Icons.
+                    </p>
+                    <ol>
+                      <li>
+                        Go to <a href="https://icons8.com/icons/material" target="_blank"> Icons8 Material style icons </a>.
+                      </li>
+                      <li>
+                        Search for your icon with keyword. For e.g <code>facebook</code>.
+                      </li>
+                      <li>
+                        Click on the icon you want and click <code>Embed HTML Button</code>.
+                      </li>
+                      <li>
+                        Copy name of the icon from last part of img src url.
+                        For eg. In url <code>https://img.icons8.com/material/24/000000/facebook-new.png</code>.
+                        Icon name is <code>facebook-new</code>
+                      </li>
+                      <li>
+                        Fork Notion Icons <a href="https://github.com/erajasekar/notion-icons/" target="_blank">Git Repo</a>.
+                      </li>
+                      <li>
+                        Open file <code>/config/icons-config.json</code> in your favorite editor.
+                      </li>
+                      <li>
+                        Add a new section for icon with <code>name</code> and <code>tags</code>.
+                        <ul>
+                          <li>
+                            For name, use <code>name</code> copied from img url.
+                          </li>
+                          <li>
+                            Optionally add any other search keywords to <code>tags</code>. For eg adding "social" to facebook icon will make this show if you search for "social".
+                          </li>
+                          <li>
+                            Example code for above facebook icon.
+                            <div class="mt-5" style="background: #f8f8f8; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .2em;padding:.2em .6em;">
+                              <pre style="margin: 0; line-height: 125%">
+                                {
+                                  <span style="color: #008000; font-weight: bold">&quot;name&quot;</span> : <span style="color: #BA2121">&quot;facebook-new&quot;</span>,
+                                  <span style="color: #008000; font-weight: bold">&quot;tags&quot;</span> : [<span style="color: #BA2121">&quot;social&quot;</span>]
+                                }
+                              </pre>
+                            </div>
+                          </li>
+                        </ul>
+                      </li>
+                      <li>
+                        Commit and send a pull request in Github.
+                      </li>
+                      <li>
+                        Once your code is merged, it will be show up notion icons.
+                      </li>
+                    </ol>
+                  </div>
+                </div>
+              </b-collapse>
+            </section>
+            <section class="qa">
+              <b-collapse class="card" animation="slide" aria-id="contentIdForA11y3" :open="false">
+                <div
+                  slot="trigger"
+                  slot-scope="props"
+                  class="card-header"
+                  role="button"
+                  aria-controls="contentIdForA11y3"
+                >
+                  <h3 class="card-header-title">
+                    I am not familiar with using Github pull request, Is there another way request Icons ?
+                  </h3>
+                  <a class="card-header-icon">
+                    <b-icon
+                      :icon="props.open ? 'menu-down' : 'menu-up'"
+                    />
+                  </a>
+                </div>
+                <div class="card-content">
+                  <p class="content">
+                    Github pull request is the preffered and fasted method. But if you can't do it, no worries.
+                    You can file Github issue by following these steps:
+                    <ul>
+                      <li>
+                        Go to <a href="https://github.com/erajasekar/notion-icons/issues/new/choose" target="_blank">Github Issues</a>.
+                      </li>
+                      <li>
+                        Click on <code>Get started</code> button next to <code>New Icon Add Request</code>
+                      </li>
+                      <li>
+                        Please follow instructions on the issue template.
+                      </li>
+                    </ul>
+                  </p>
+                </div>
+              </b-collapse>
+            </section>
+            <section class="qa">
+              <b-collapse class="card" animation="slide" aria-id="contentIdForA11y3" :open="false">
+                <div
+                  slot="trigger"
+                  slot-scope="props"
+                  class="card-header"
+                  role="button"
+                  aria-controls="contentIdForA11y3"
+                >
+                  <h3 class="card-header-title">
+                    Can I request other style of icons from icon8 icons or icons from other sites flaticon?
+                  </h3>
+                  <a class="card-header-icon">
+                    <b-icon
+                      :icon="props.open ? 'menu-down' : 'menu-up'"
+                    />
+                  </a>
+                </div>
+                <div class="card-content">
+                  <p class="content">
+                    No. The currently only Icon8 Material Icons are only supported.
+                  </p>
+                </div>
+              </b-collapse>
+            </section>
+            <section class="qa">
+              <b-collapse class="card" animation="slide" aria-id="contentIdForA11y3" :open="false">
+                <div
+                  slot="trigger"
+                  slot-scope="props"
+                  class="card-header"
+                  role="button"
+                  aria-controls="contentIdForA11y3"
+                >
+                  <h3 class="card-header-title">
+                    Is it free to use ?
+                  </h3>
+                  <a class="card-header-icon">
+                    <b-icon
+                      :icon="props.open ? 'menu-down' : 'menu-up'"
+                    />
+                  </a>
+                </div>
+                <div class="card-content">
+                  <p class="content">
+                    You can use Icons8 for free, but link to Icons8 website.
+                    Please see <a href="https://icons8.com/license" target="_blank">license terms </a> for more information.
+                  </p>
+                </div>
+              </b-collapse>
+            </section>
+            <section class="qa">
+              <b-collapse class="card" animation="slide" aria-id="contentIdForA11y3" :open="false">
+                <div
+                  slot="trigger"
+                  slot-scope="props"
+                  class="card-header"
+                  role="button"
+                  aria-controls="contentIdForA11y3"
+                >
+                  <h3 class="card-header-title">
+                    Notions Icons hosted at your personal domain ? Will there any problem if this tool move to different address ?
+                  </h3>
+                  <a class="card-header-icon">
+                    <b-icon
+                      :icon="props.open ? 'menu-down' : 'menu-up'"
+                    />
+                  </a>
+                </div>
+                <div class="card-content">
+                  <p class="content">
+                    The icons are not served from <code>notion.erajasekar.com</code>. The copied Icon url is original img src from Icon8.
+                    So there won't be any this tool moves to different domain in future.
+                  </p>
+                </div>
+              </b-collapse>
+            </section>
             <section class="qa">
               <b-collapse class="card" animation="slide" aria-id="contentIdForA11y3" :open="false">
                 <div
@@ -249,17 +358,22 @@ export default class About extends Vue {
   }
 
   .card {
-     background-color: #FAF7F0;
+    /* background-color: #FAF7F0; */
+    background-color:#FAF7F0;
   }
 
   .about-card {
    /* background-color: #F4F0E7; */
-   background-color : white;
+   background-color :#F4F0E7;
    box-shadow: 0 2px 2px 0 rgba(34, 41, 47, 0.05), 0 8px 8px 0 rgba(34, 41, 47, 0.05);
   }
 
   .image img {
     width: 70%;
+  }
+
+  hr {
+    background-color: #5B4E4B;
   }
 
 </style>
