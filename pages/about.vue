@@ -1,6 +1,6 @@
 <template>
   <section class="content">
-    <section class="hero mt-10 card is-medium is-bold about-card">
+    <section class="hero mt-10 is-medium is-bold about-card">
       <div class="container">
         <div class="hero-body">
           <div class="qa">
@@ -176,6 +176,32 @@
                 Click on <code>Get started</code> button next to <code>Bug report</code>. Follow the instructions on template.
               </p>
             </div>
+            <section class="qa">
+              <b-collapse class="card" animation="slide" aria-id="contentIdForA11y3" :open="false">
+                <div
+                  slot="trigger"
+                  slot-scope="props"
+                  class="card-header"
+                  role="button"
+                  aria-controls="contentIdForA11y3"
+                >
+                  <h3 class="card-header-title">
+                    I found some problems or something is not working, What should I do ?
+                  </h3>
+                  <a class="card-header-icon">
+                    <b-icon
+                      :icon="props.open ? 'menu-down' : 'menu-up'"
+                    />
+                  </a>
+                </div>
+                <div class="card-content">
+                  <p class="content">
+                    Please submit a issue Github. Go to <a href="https://github.com/erajasekar/notion-icons/issues/new/choose" target="_blank">Github</a>.
+                    Click on <code>Get started</code> button next to <code>Bug report</code>. Follow the instructions on template.
+                  </p>
+                </div>
+              </b-collapse>
+            </section>
           </div>
         </div>
       </div>
@@ -217,11 +243,19 @@ export default class About extends Vue {
   }
 
   .qa {
-    padding: 20px 0 20px 0;
+    padding: 20px 0px 20px 0px;
+    /* background-color: #F4F0E7;
+    margin-top: 10px;*/
   }
 
   .card {
-    box-shadow: 0 2px 2px 0 rgba(34, 41, 47, 0.05), 0 8px 8px 0 rgba(34, 41, 47, 0.05);
+     background-color: #FAF7F0;
+  }
+
+  .about-card {
+   /* background-color: #F4F0E7; */
+   background-color : white;
+   box-shadow: 0 2px 2px 0 rgba(34, 41, 47, 0.05), 0 8px 8px 0 rgba(34, 41, 47, 0.05);
   }
 
   .image img {
