@@ -31,7 +31,7 @@
         </div>
       </div>
     </section>
-    <section class="hero card mt-10 card is-medium  is-bold">
+    <section class="hero card mt-10 card is-medium how-card is-bold">
       <div class="hero-body text-gray-900">
         <div class="container">
           <h1 class="title">
@@ -102,6 +102,14 @@
 
   .who-card h1 {
     color: white;
+  }
+
+  .how-card {
+    background-color: #FAF7F0;
+  }
+
+  .how-card h1 {
+    color: #EC2D2A;
   }
 
   .card {
