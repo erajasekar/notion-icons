@@ -366,7 +366,9 @@ export default class About extends Vue {
   .about-card {
    /* background-color: #F4F0E7; */
    background-color :#F4F0E7;
-   box-shadow: 0 2px 2px 0 rgba(34, 41, 47, 0.05), 0 8px 8px 0 rgba(34, 41, 47, 0.05);
+   /* box-shadow: 0 2px 2px 0 rgba(34, 41, 47, 0.05), 0 8px 8px 0 rgba(34, 41, 47, 0.05);*/
+   border: 1px solid #DDE4E9;
+   box-shadow: 0 2px 3px 0 rgba(51, 62, 75, 0.08) !important;
   }
 
   .image img {

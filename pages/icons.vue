@@ -20,6 +20,19 @@
           />
         </b-field>
       </div>
+      <hr>
+      <ul class="">
+        <li class="pt-2">
+          <nuxt-link class="text-teal-900 hover:text-teal-700 text-sm" to="/about">
+            Don't find Icon you want ?
+          </nuxt-link>
+        </li>
+        <li class="pt-5">
+          <a class="text-teal-900 hover:text-teal-700 text-sm" href="notion://notion.so" target="_blank">
+            Open Notion App
+          </a>
+        </li>
+      </ul>
     </aside>
 
     <div class="container column is-10">
@@ -173,4 +186,8 @@ export default class IconGallery extends Vue {
   p {
     font-family: Share Tech Mono,monospace;
   }
+
+  /* hr {
+    background-color: #3F9795;
+  }*/
 </style>
