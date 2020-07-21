@@ -321,9 +321,20 @@
 <script lang="ts">
 
 import { Component, Vue } from 'nuxt-property-decorator'
+import { getCurrentPageUrl } from '../gallery/AppUtils'
 
 @Component
 export default class About extends Vue {
+  head () {
+    return {
+      titleTemplate: 'About | %s',
+      meta: [
+        { name: 'og:url', content: getCurrentPageUrl('/') },
+        { name: 'twitter:url', content: getCurrentPageUrl('/') }
+      ]
+    }
+  }
+
   scrollTo (refName: any) {
     const offsetTopProperty = 'offsetTop'
     const top = (this.$refs[refName] as any)[offsetTopProperty]

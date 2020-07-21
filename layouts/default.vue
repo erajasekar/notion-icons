@@ -24,7 +24,7 @@ export default class Layout extends Vue {
 </script>
 
 <style>
-  @import url('https://fonts.googleapis.com/css?family=KoHo|Share+Tech+Mono|Roboto|Titillium+Web');
+  @import url('https://fonts.googleapis.com/css?family=KoHo|Share+Tech+Mono|Roboto|Titillium+Web|Graduate');
 
   html {
     font-size: 18px;

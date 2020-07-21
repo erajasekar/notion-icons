@@ -80,6 +80,8 @@ import { Component, Vue } from 'nuxt-property-decorator'
 import VSwatches from 'vue-swatches'
 import 'vue-swatches/dist/vue-swatches.css'
 import { IconConfig } from '../gallery/config'
+import { getCurrentPageUrl } from '../gallery/AppUtils'
+
 import { getIconUrl, filterIconByNameOrTag } from '../gallery/UtilFunctions'
 
 @Component({
@@ -94,6 +96,16 @@ export default class IconGallery extends Vue {
   hoverIcon = ''
   searchKeyword = ''
   isDarkMode = false
+
+  head () {
+    return {
+      titleTemplate: 'Icon Gallery | %s',
+      meta: [
+        { name: 'og:url', content: getCurrentPageUrl('/') },
+        { name: 'twitter:url', content: getCurrentPageUrl('/') }
+      ]
+    }
+  }
 
   get filteredIcons () {
     if (this.searchKeyword.length > 0) {

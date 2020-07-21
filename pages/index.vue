@@ -71,8 +71,23 @@
   </section>
 </template>
 
-<script>
+<script lang="ts">
 
+import { Component, Vue } from 'nuxt-property-decorator'
+import { getCurrentPageUrl } from '../gallery/AppUtils'
+
+@Component
+export default class extends Vue {
+  head () {
+    return {
+      titleTemplate: 'Home | %s',
+      meta: [
+        { name: 'og:url', content: getCurrentPageUrl('/') },
+        { name: 'twitter:url', content: getCurrentPageUrl('/') }
+      ]
+    }
+  }
+}
 </script>
 
 <style scoped>

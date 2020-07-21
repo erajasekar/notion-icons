@@ -1,4 +1,8 @@
 
+const description = 'Notion Icons is a tool to easily add beautiful Icons to your Notion Notes'
+const baseUrl = 'https://notion.erajasekar.com'
+const siteName = 'Notion Icons'
+
 export default {
   /*
   ** Nuxt rendering mode
@@ -15,11 +19,25 @@ export default {
   ** See https://nuxtjs.org/api/configuration-head
   */
   head: {
-    title: process.env.npm_package_name || '',
+    title: process.env.npm_package_description || '',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: process.env.npm_package_description || '' }
+      { hid: 'description', name: 'description', description },
+      { name: 'keywords', content: 'Notion, Icons, Note Taking, Notes' },
+      { name: 'robots', content: 'index, follow' },
+      { name: 'google-site-verification', content: 'TODO' },
+      { name: 'author', content: 'Rajasekar Elango' },
+      { property: 'og:type', content: 'website' },
+      { property: 'og:title', content: process.env.npm_package_description },
+      { property: 'og:site_name', content: siteName },
+      { property: 'og:description', content: description },
+      { property: 'og:image', content: baseUrl + 'TODO' },
+      { name: 'twitter:card', content: 'summary_large_image' },
+      { name: 'twitter:title', content: process.env.npm_package_description },
+      { property: 'twitter:site', content: siteName },
+      { name: 'twitter:description', content: description },
+      { name: 'twitter:image', content: baseUrl + 'TODO' }
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
