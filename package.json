@@ -2,6 +2,8 @@
   "name": "notion-icons",
   "version": "1.0.0",
   "private": true,
+  "description": "Notion Icons",
+  "author": "Rajasekar Elango",
   "scripts": {
     "dev": "nuxt --port 3333",
     "build": "nuxt-ts build",

@@ -2,9 +2,9 @@
   <section class="hero bg-teal-300 max-w-full border-b-4 border-teal-800">
     <div class="hero-body">
       <div class="container has-text-centered">
-        <h1 class="title">
+        <p class="title">
           Notion Icons
-        </h1>
+        </p>
         <h2 class="italic text-xl text-grey-700">
           Easily add beautiful Icons to your Notion Notes.
         </h2>
@@ -56,6 +56,16 @@ export default class extends Vue {
 
 .tabs.is-boxed li a:hover {
     background-color: #B2F5E9;
+}
+
+.title {
+  font-family: 'Graduate';
+  font-weight: 500;
+}
+
+h2 {
+  font-family: 'KoHo';
+  color: red;
 }
 
 </style>
