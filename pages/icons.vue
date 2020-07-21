@@ -23,12 +23,12 @@
       <hr>
       <ul class="">
         <li class="pt-2">
-          <nuxt-link class="text-teal-900 hover:text-teal-700 text-sm" to="/about">
+          <nuxt-link class="text-teal-900 hover:text-teal-700 text-xs" to="/about">
             Don't find Icon you want ?
           </nuxt-link>
         </li>
         <li class="pt-5">
-          <a class="text-teal-900 hover:text-teal-700 text-sm" href="notion://notion.so" target="_blank">
+          <a class="text-teal-900 hover:text-teal-700 text-xs" href="notion://notion.so" target="_blank">
             Open Notion App
           </a>
         </li>
