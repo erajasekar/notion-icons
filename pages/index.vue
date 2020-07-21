@@ -23,7 +23,11 @@
             Notions comes with only limited set of icons. We can get beautiful icons from many websites like
             <a class="text-teal-800 hover:text-teal-600" href="https://icons8.com/" target="_blank"> Icon8 </a> ,
             <a class="text-teal-800 hover:text-teal-600" href="https://www.flaticon.com/" target="_blank"> Flaticon </a> .
-            But it is painful to add icons from those websites to notion notes.
+            But it is
+            <nuxt-link class="text-teal-900 hover:text-teal-700" to="/about">
+              painful
+            </nuxt-link>
+            to add icons from those websites to notion notes.
           </p>
           <blockquote class="text-2xl">
             Now, You can easily add beautiful icons to your notes using Notion Icons.
