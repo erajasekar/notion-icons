@@ -359,7 +359,8 @@ export default class About extends Vue {
 
   .card {
     /* background-color: #FAF7F0; */
-    background-color:#FAF7F0;
+    /* background-color:#FAF7F0; */
+    background-color: white;
   }
 
   .about-card {
