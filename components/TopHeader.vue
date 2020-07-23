@@ -65,7 +65,7 @@ export default class extends Vue {
 
 h2 {
   font-family: 'KoHo';
-  color: red;
+  color:#374454;
 }
 
 </style>
