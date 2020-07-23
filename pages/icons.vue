@@ -9,7 +9,7 @@
           <b-input v-model="searchKeyword" />
         </b-field>
         <b-field horizontal label="Color" class="mt-10">
-          <v-swatches v-model="color" show-fallback popover-x="left" />
+          <v-swatches v-model="color" popover-x="left" />
         </b-field>
         <b-field horizontal :label="toggleMode" class="mt-10">
           <b-switch
