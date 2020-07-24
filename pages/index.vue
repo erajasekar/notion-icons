@@ -1,6 +1,6 @@
 <template>
   <section class="content">
-    <section class="hero card is-medium is-bold who-card">
+    <section class="hero card is-bold who-card">
       <div class="hero-body">
         <div class="container">
           <h1 class="title">
@@ -13,31 +13,9 @@
         </div>
       </div>
     </section>
-    <section class="hero card mt-10 card is-medium is-bold why-card">
-      <div class="hero-body text-gray-900">
-        <div class="container">
-          <h1 class="title">
-            Why use it ?
-          </h1>
-          <p class="text-2xl">
-            Notions comes with only limited set of icons. We can get beautiful icons from many websites like
-            <a class="text-teal-800 hover:text-teal-600" href="https://icons8.com/" target="_blank"> Icon8 </a> ,
-            <a class="text-teal-800 hover:text-teal-600" href="https://www.flaticon.com/" target="_blank"> Flaticon </a> .
-            But it is
-            <nuxt-link class="text-teal-900 hover:text-teal-700" to="/about">
-              painful
-            </nuxt-link>
-            to add icons from those websites to notion notes.
-          </p>
-          <blockquote class="text-2xl">
-            Now, You can easily add beautiful icons to your notes using Notion Icons.
-          </blockquote>
-        </div>
-      </div>
-    </section>
     <section class="hero card mt-10 card is-medium how-card is-bold">
-      <div class="hero-body text-gray-900">
-        <div class="container">
+      <div class="columns hero-body text-gray-900">
+        <div class="column is-half container border-gray-300 border-r-2">
           <h1 class="title">
             How to use it ?
           </h1>
@@ -69,6 +47,43 @@
               </li>
             </ol>
           </div>
+        </div>
+        <div class="column is-half">
+          <h1>
+            Watch Demo
+          </h1>
+          <div class="video-container">
+            <iframe
+              src="https://www.youtube.com/embed/MbzYURTO0sc?rel=0&amp;autoplay=1&mute=1"
+              width="560"
+              height="315"
+              frameborder="0"
+              allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="hero card mt-10 card is-medium is-bold why-card">
+      <div class="hero-body text-gray-900">
+        <div class="container">
+          <h1 class="title">
+            Why use it ?
+          </h1>
+          <p class="text-2xl">
+            Notions comes with only limited set of icons. We can get beautiful icons from many websites like
+            <a class="text-teal-800 hover:text-teal-600" href="https://icons8.com/" target="_blank"> Icon8 </a> ,
+            <a class="text-teal-800 hover:text-teal-600" href="https://www.flaticon.com/" target="_blank"> Flaticon </a> .
+            But it is
+            <nuxt-link class="text-teal-900 hover:text-teal-700" to="/about">
+              painful
+            </nuxt-link>
+            to add icons from those websites to notion notes.
+          </p>
+          <blockquote class="text-2xl">
+            Now, You can easily add beautiful icons to your notes using Notion Icons.
+          </blockquote>
         </div>
       </div>
     </section>
@@ -133,5 +148,20 @@ export default class extends Vue {
 
   .card {
     box-shadow: 0 2px 2px 0 rgba(34, 41, 47, 0.05), 0 8px 8px 0 rgba(34, 41, 47, 0.05);
+  }
+
+  .video-container {
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 */
+    height: 0;
+  }
+
+.video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 95%;
+    height: 95%;
+    box-shadow: rgba(40, 40, 40, 0.15) 0px 20px 80px;
   }
 </style>
