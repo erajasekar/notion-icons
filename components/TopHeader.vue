@@ -3,7 +3,7 @@
     <div class="hero-body">
       <div class="container has-text-centered">
         <p class="title">
-          <img class="h-16" src="~assets/Notion-Favicon-Transparent.png" alt="Notion Icons Icon">
+          <img class="h-16" src="~assets/Logo.png" alt="Notion Icons Icon">
           Notion Icons
         </p>
         <h2 class="italic text-xl text-grey-700">
