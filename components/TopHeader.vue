@@ -1,15 +1,12 @@
 <template>
   <section class="hero bg-teal-300 max-w-full border-b-4 border-teal-800">
-    <div class="hero-body">
-      <div class="container has-text-centered">
-        <p class="title">
-          <img class="h-16" src="~assets/Logo.png" alt="Notion Icons Icon">
-          Notion Icons
-        </p>
-        <h2 class="italic text-xl text-grey-700">
-          Easily add beautiful Icons to your Notion Notes.
-        </h2>
+    <div class="container has-text-centered text-orange-100 ">
+      <div class="">
+        <img class="h-32" src="~assets/LogoNew.png" alt="Notion Icons Icon">
       </div>
+      <h2 class="italic font-bold text-2xl pb-10">
+          &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;  Add beautiful Icons to your Notion Notes
+      </h2>
     </div>
 
     <div class="hero-foot">
@@ -66,7 +63,8 @@ export default class extends Vue {
 
 h2 {
   font-family: 'KoHo';
-  color:#374454;
+  /*color:#718096;*/
+  color:#B7791F;
 }
 
 </style>

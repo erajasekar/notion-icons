@@ -1,6 +1,6 @@
 <template>
   <section class="content">
-    <section class="hero card is-bold who-card">
+    <section class="hero is-medium card is-bold who-card">
       <div class="hero-body">
         <div class="container">
           <h1 class="title">
