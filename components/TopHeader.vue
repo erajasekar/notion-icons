@@ -5,7 +5,7 @@
         <img class="h-32" src="~assets/LogoNew.png" alt="Notion Icons Icon">
       </div>
       <h2 class="italic font-bold text-2xl pb-10">
-          &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;  Add beautiful Icons to your Notion Notes
+        &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;  Add beautiful Icons to your Notion Notes
       </h2>
     </div>
 
