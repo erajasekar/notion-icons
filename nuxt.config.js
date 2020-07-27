@@ -2,6 +2,7 @@
 const description = 'Notion Icons is a tool to easily add beautiful Icons to your Notion Notes'
 const baseUrl = 'https://notion.erajasekar.com'
 const siteName = 'Notion Icons'
+const baseURI = '/notion-icons/'
 
 export default {
   /*
@@ -11,7 +12,7 @@ export default {
   mode: 'spa',
 
   router: {
-    base: '/notion-icons/'
+    base: baseURI
   },
   /*
   ** Nuxt target
@@ -44,7 +45,7 @@ export default {
       { name: 'twitter:image', content: baseUrl + 'TODO' }
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
+      { rel: 'icon', type: 'image/x-icon', href: baseURI + 'favicon.ico' }
     ]
   },
   /*
