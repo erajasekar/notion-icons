@@ -31,18 +31,18 @@ export default {
       { hid: 'description', name: 'description', description },
       { name: 'keywords', content: 'Notion, Icons, Note Taking, Notes' },
       { name: 'robots', content: 'index, follow' },
-      { name: 'google-site-verification', content: 'TODO' },
+      /* { name: 'google-site-verification', content: 'TODO' }, */
       { name: 'author', content: 'Rajasekar Elango' },
       { property: 'og:type', content: 'website' },
       { property: 'og:title', content: process.env.npm_package_description },
       { property: 'og:site_name', content: siteName },
       { property: 'og:description', content: description },
-      { property: 'og:image', content: baseUrl + 'TODO' },
+      /* { property: 'og:image', content: baseUrl + 'TODO' }, */
       { name: 'twitter:card', content: 'summary_large_image' },
       { name: 'twitter:title', content: process.env.npm_package_description },
       { property: 'twitter:site', content: siteName },
-      { name: 'twitter:description', content: description },
-      { name: 'twitter:image', content: baseUrl + 'TODO' }
+      { name: 'twitter:description', content: description }
+      /* { name: 'twitter:image', content: baseUrl + 'TODO' } */
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: baseURI + 'favicon.ico' }
