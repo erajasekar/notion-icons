@@ -11,13 +11,13 @@ export default {
   mode: 'spa',
 
   router: {
-    base: '/nuxt-gh-pages/'
+    base: '/notion-icons/'
   },
   /*
   ** Nuxt target
   ** See https://nuxtjs.org/api/configuration-target
   */
-  /*target: 'static',*/
+  /* target: 'static', */
   /*
   ** Headers of the page
   ** See https://nuxtjs.org/api/configuration-head

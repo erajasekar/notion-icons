@@ -40,6 +40,7 @@
         <div class="columns is-mobile is-multiline">
           <div v-for="(icon, index) in filteredIcons" :key="index" class="column is-one-fifth">
             <div :class="applyCardTheme" @click="copyIcon(icon.name)" @mouseover="iconHover(icon.name,true)" @mouseleave="iconHover(icon.name,false)">
+              <!-- <div v-clipboard:copy="selectedIcon" :class="applyCardTheme" @mouseover="iconHover(icon.name,true)" @mouseleave="iconHover(icon.name,false)"> -->
               <div class="has-text-centered pb-5 pt-5">
                 <p v-if="isIconSelected(icon.name)">
                   Copied!
@@ -133,9 +134,23 @@ export default class IconGallery extends Vue {
 
   copyIcon (iconName: string) {
     const firstImg = (this.$refs[iconName] as any)[0]
-    this.$copyText(firstImg.src).then(() => {
+    this.copyToClipboard(firstImg.src)
+    this.selectedIcon = iconName
+    /* this.$copyText(firstImg.src).then(() => {
       this.selectedIcon = iconName
-    })
+    }) */
+  }
+
+  copyToClipboard (text: string) {
+    const el = document.createElement('textarea')
+    el.value = text
+    el.setAttribute('readonly', '')
+    el.style.position = 'absolute'
+    el.style.left = '-9999px'
+    document.body.appendChild(el)
+    el.select()
+    document.execCommand('copy')
+    document.body.removeChild(el)
   }
 
   iconHover (iconName: string, hover: boolean) {
