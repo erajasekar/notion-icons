@@ -23,6 +23,11 @@
       <hr>
       <ul class="">
         <li class="pt-2">
+          <a class="text-teal-900 hover:text-teal-700 text-xs" href="https://www.youtube.com/watch?v=7Zu17bApCss" target="_blank">
+            How to use ?
+          </a>
+        </li>
+        <li class="pt-5">
           <nuxt-link class="text-teal-900 hover:text-teal-700 text-xs" to="/about">
             Don't find Icon you want ?
           </nuxt-link>
@@ -40,7 +45,6 @@
         <div class="columns is-mobile is-multiline">
           <div v-for="(icon, index) in filteredIcons" :key="index" class="column is-one-fifth">
             <div :class="applyCardTheme" @click="copyIcon(icon.name)" @mouseover="iconHover(icon.name,true)" @mouseleave="iconHover(icon.name,false)">
-              <!-- <div v-clipboard:copy="selectedIcon" :class="applyCardTheme" @mouseover="iconHover(icon.name,true)" @mouseleave="iconHover(icon.name,false)"> -->
               <div class="has-text-centered pb-5 pt-5">
                 <p v-if="isIconSelected(icon.name)">
                   Copied!

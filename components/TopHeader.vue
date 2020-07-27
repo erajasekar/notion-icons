@@ -14,7 +14,9 @@
         <div class="container subtitle">
           <ul>
             <li :class="isMenuActive('index')">
-              <a href="/">Home</a>
+              <nuxt-link to="/">
+                Home
+              </nuxt-link>
             </li>
             <li :class="isMenuActive('icons')">
               <nuxt-link to="/icons">
