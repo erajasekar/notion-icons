@@ -7,9 +7,9 @@
   "scripts": {
     "dev": "nuxt --port 3333",
     "build": "nuxt-ts build",
-    "start": "nuxt-ts start",
+    "start": "nuxt-ts start --port 3333",
     "export": "nuxt-ts export",
-    "serve": "nuxt-ts serve",
+    "serve": "nuxt-ts serve --port 3333",
     "generate": "nuxt generate",
     "deploy": "gh-pages -d dist",
     "lint:js": "eslint --ext .js,.vue --ignore-path .gitignore .",
