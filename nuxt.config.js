@@ -9,11 +9,15 @@ export default {
   ** See https://nuxtjs.org/api/configuration-mode
   */
   mode: 'spa',
+
+  router: {
+    base: '/nuxt-gh-pages/'
+  },
   /*
   ** Nuxt target
   ** See https://nuxtjs.org/api/configuration-target
   */
-  target: 'static',
+  /*target: 'static',*/
   /*
   ** Headers of the page
   ** See https://nuxtjs.org/api/configuration-head
