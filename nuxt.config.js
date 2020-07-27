@@ -1,6 +1,6 @@
 
 const description = 'Notion Icons is a tool to easily add beautiful Icons to your Notion Notes'
-const baseUrl = 'https://notion.erajasekar.com'
+/* const baseUrl = 'https://notion.erajasekar.com' */
 const siteName = 'Notion Icons'
 const baseURI = '/notion-icons/'
 
@@ -14,11 +14,16 @@ export default {
   router: {
     base: baseURI
   },
+
+  server: {
+    port: 3333,
+    host: '0.0.0.0'
+  },
   /*
   ** Nuxt target
   ** See https://nuxtjs.org/api/configuration-target
   */
-  /* target: 'static', */
+  target: 'static',
   /*
   ** Headers of the page
   ** See https://nuxtjs.org/api/configuration-head
