@@ -10,6 +10,8 @@
     "start": "nuxt-ts start",
     "export": "nuxt-ts export",
     "serve": "nuxt-ts serve",
+    "generate": "nuxt generate",
+    "deploy": "gh-pages -d dist",
     "lint:js": "eslint --ext .js,.vue --ignore-path .gitignore .",
     "lint": "npm run lint:js",
     "test": "jest"
@@ -36,6 +38,7 @@
     "babel-jest": "^26.0.1",
     "eslint": "^7.2.0",
     "eslint-plugin-nuxt": "^1.0.0",
+    "gh-pages": "^3.1.0",
     "jest": "^26.0.1",
     "ts-jest": "^26.1.0",
     "vue-jest": "^3.0.4"
