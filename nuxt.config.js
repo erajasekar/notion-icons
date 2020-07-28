@@ -36,7 +36,7 @@ export default {
       { hid: 'description', name: 'description', description },
       { name: 'keywords', content: 'Notion, Icons, Note Taking, Notes' },
       { name: 'robots', content: 'index, follow' },
-      /* { name: 'google-site-verification', content: 'TODO' }, */
+      { name: 'google-site-verification', content: 'aj7GVm50EmiN_a1iRTW1gizUwHizAJqkNSWy0dz7Xzg' },
       { name: 'author', content: 'Rajasekar Elango' },
       { property: 'og:type', content: 'website' },
       { property: 'og:title', content: process.env.npm_package_description },
@@ -76,8 +76,14 @@ export default {
   buildModules: [
     '@nuxt/typescript-build',
     '@nuxtjs/eslint-module',
-    '@nuxtjs/tailwindcss'
+    '@nuxtjs/tailwindcss',
+    '@nuxtjs/google-analytics'
   ],
+
+  googleAnalytics: {
+    id: 'UA-53694809-5'
+  },
+
   /*
   ** Nuxt.js modules
   */
