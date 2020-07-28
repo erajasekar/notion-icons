@@ -5,7 +5,7 @@
   "description": "Notion Icons",
   "author": "Rajasekar Elango",
   "scripts": {
-    "dev": "nuxt --port 3333",
+    "dev": "nuxt-ts --port 3333",
     "build": "nuxt-ts build",
     "start": "nuxt-ts start --port 3333",
     "export": "nuxt-ts export",
