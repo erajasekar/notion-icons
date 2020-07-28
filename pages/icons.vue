@@ -23,7 +23,7 @@
       <hr>
       <ul class="">
         <li class="pt-2">
-          <a class="text-teal-900 hover:text-teal-700 text-xs" href="https://www.youtube.com/watch?v=7Zu17bApCss" target="_blank">
+          <a class="text-teal-900 hover:text-teal-700 text-xs" href="https://www.youtube.com/watch?v=otaWCicokTc" target="_blank">
             How to use ?
           </a>
         </li>
