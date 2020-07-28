@@ -47,7 +47,7 @@ export default {
       { name: 'twitter:title', content: process.env.npm_package_description },
       { property: 'twitter:site', content: siteName },
       { name: 'twitter:description', content: description },
-      { name: 'twitter:image', content: baseUrl + '/social-twitter.jpg' }
+      { name: 'twitter:image', content: baseUrl + '/social-twitter1.jpg' }
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: baseURI + 'favicon.ico' }
