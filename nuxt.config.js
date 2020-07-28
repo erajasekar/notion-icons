@@ -2,7 +2,7 @@
 const description = 'Notion Icons is a tool to easily add beautiful Icons to your Notion Notes'
 /* const baseUrl = 'https://notion.erajasekar.com' */
 const siteName = 'Notion Icons'
-const baseURI = '/notion-icons/'
+const baseURI = '/'
 
 export default {
   /*
