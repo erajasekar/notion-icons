@@ -42,7 +42,7 @@
 
     <div class="container column is-10">
       <section :class="applyContainerTheme">
-        <div class="columns is-mobile is-multiline">
+        <div class="columns is-multiline">
           <div v-for="(icon, index) in filteredIcons" :key="index" class="column is-one-fifth">
             <div :class="applyCardTheme" @click="copyIcon(icon.name)" @mouseover="iconHover(icon.name,true)" @mouseleave="iconHover(icon.name,false)">
               <div class="has-text-centered pb-5 pt-5">
@@ -140,9 +140,6 @@ export default class IconGallery extends Vue {
     const firstImg = (this.$refs[iconName] as any)[0]
     this.copyToClipboard(firstImg.src)
     this.selectedIcon = iconName
-    /* this.$copyText(firstImg.src).then(() => {
-      this.selectedIcon = iconName
-    }) */
   }
 
   copyToClipboard (text: string) {
@@ -218,7 +215,4 @@ export default class IconGallery extends Vue {
     font-family: Share Tech Mono,monospace;
   }
 
-  /* hr {
-    background-color: #3F9795;
-  }*/
 </style>
