@@ -2,9 +2,9 @@
   <section class="hero bg-teal-300 max-w-full border-b-4 border-teal-800">
     <div class="container has-text-centered text-orange-100">
       <div class="">
-        <img class="h-32" src="~assets/LogoNew.png" alt="Notion Icons Icon">
+        <img class="h-24" src="~assets/LogoNew.png" alt="Notion Icons Icon">
       </div>
-      <h2 class="italic font-bold text-2xl pb-10  mr-5">
+      <h2 class="italic font-bold text-xl pb-10  mr-5">
         &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;  Add beautiful Icons to your Notion Notes
       </h2>
     </div>
