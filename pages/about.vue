@@ -16,7 +16,7 @@
             <figure class="image">
               <img class="box" src="~assets/notions-related-icons.png" alt="Raja Notion Screen shot">
             </figure>
-            <p>
+            <p id="why-i-built">
               Notions comes with only limited set of icons. We can get beautiful icons from many websites like
               <a href="https://icons8.com/" target="_blank"> Icon8 </a> ,
               <a href="https://www.flaticon.com/" target="_blank"> Flaticon </a> .
@@ -60,7 +60,8 @@
                     I have only added Icons I use in My Notion. More icons we add, it becomes harder to choose right one
                     (<a href="https://en.wikipedia.org/wiki/The_Paradox_of_Choice" target="_blank"> Paradox Of Choice </a>).
                     I would like to crowd source best Icons for Notion from the community. So please feel to
-                    <a @click="scrollTo('how-to-contribute')">contribute. </a>
+                    <!-- <a @click="scrollTo('how-to-contribute')">contribute. </a> -->
+                    <a v-scroll-to="'#how-to-contribute'" href="#">contribute. </a>
                   </p>
                 </div>
               </b-collapse>
@@ -94,7 +95,7 @@
                 </div>
               </b-collapse>
             </section>
-            <section ref="how-to-contribute" class="qa">
+            <section id="how-to-contribute" class="qa">
               <b-collapse class="card" animation="slide" aria-id="contentIdForA11y3" :open="false">
                 <div
                   slot="trigger"
@@ -321,6 +322,7 @@
 <script lang="ts">
 
 import { Component, Vue } from 'nuxt-property-decorator'
+import VueScrollTo from 'vue-scrollto'
 import { getCurrentPageUrl } from '../gallery/AppUtils'
 
 @Component
@@ -335,10 +337,17 @@ export default class About extends Vue {
     }
   }
 
-  scrollTo (refName: any) {
-    const offsetTopProperty = 'offsetTop'
-    const top = (this.$refs[refName] as any)[offsetTopProperty]
-    window.scrollTo(0, top)
+  mounted () {
+    if (this.$route.hash) {
+      this.scrollToHash()
+    }
+  }
+
+  scrollToHash () {
+    const hash = this.$route.hash
+    this.$nextTick(() => {
+      VueScrollTo.scrollTo(hash, 0, { offset: 150 })
+    })
   }
 }
 </script>

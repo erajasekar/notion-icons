@@ -76,9 +76,9 @@
             <a class="text-teal-800 hover:text-teal-600" href="https://icons8.com/" target="_blank"> Icon8 </a> ,
             <a class="text-teal-800 hover:text-teal-600" href="https://www.flaticon.com/" target="_blank"> Flaticon </a> .
             But it is
-            <nuxt-link class="text-teal-900 hover:text-teal-700" to="/about">
+            <a href="/about/#why-i-built" class="text-teal-900 hover:text-teal-700">
               painful
-            </nuxt-link>
+            </a>
             to add icons from those websites to notion notes.
           </p>
           <blockquote class="text-2xl">

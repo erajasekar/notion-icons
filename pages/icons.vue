@@ -28,9 +28,10 @@
           </a>
         </li>
         <li class="pt-5">
-          <nuxt-link class="text-teal-900 hover:text-teal-700 text-xs" to="/about">
+          <!-- <nuxt-link class="text-teal-900 hover:text-teal-700 text-xs" to="/about">
             Don't find Icon you want ?
-          </nuxt-link>
+          </nuxt-link> -->
+          <a href="/about/#how-to-contribute" class="text-teal-900 hover:text-teal-700 text-xs"> Don't find Icon you want ? </a>
         </li>
         <li class="pt-5">
           <a class="text-teal-900 hover:text-teal-700 text-xs" href="notion://notion.so" target="_blank">

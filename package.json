@@ -24,6 +24,7 @@
     "nuxt-clipboard2": "^0.2.1",
     "nuxt-property-decorator": "^2.7.2",
     "sass-loader": "^9.0.0",
+    "vue-scrollto": "^2.18.2",
     "vue-swatches": "^2.1.0"
   },
   "devDependencies": {
