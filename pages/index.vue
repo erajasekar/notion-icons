@@ -13,7 +13,7 @@
         </div>
       </div>
     </section>
-    <section class="hero card mt-10 card is-medium how-card is-bold">
+    <section id="how-to-use" class="hero card mt-10 card is-medium how-card is-bold">
       <div class="columns hero-body text-gray-900">
         <div class="column is-half container border-gray-300 border-r-2">
           <h1 class="title">
@@ -93,6 +93,7 @@
 <script lang="ts">
 
 import { Component, Vue } from 'nuxt-property-decorator'
+import VueScrollTo from 'vue-scrollto'
 import { getCurrentPageUrl } from '../gallery/AppUtils'
 
 @Component
@@ -106,7 +107,21 @@ export default class extends Vue {
       ]
     }
   }
+
+  mounted () {
+    if (this.$route.hash) {
+      this.scrollToHash()
+    }
+  }
+
+  scrollToHash () {
+    const hash = this.$route.hash
+    this.$nextTick(() => {
+      VueScrollTo.scrollTo(hash, 0)
+    })
+  }
 }
+
 </script>
 
 <style scoped>
