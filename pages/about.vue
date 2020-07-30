@@ -346,7 +346,7 @@ export default class About extends Vue {
   scrollToHash () {
     const hash = this.$route.hash
     this.$nextTick(() => {
-      VueScrollTo.scrollTo(hash, 0, { offset: 150 })
+      VueScrollTo.scrollTo(hash, 0)
     })
   }
 }
