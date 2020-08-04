@@ -2,7 +2,7 @@
   <footer class="mt-5 p-5">
     <div class="level font-bold text-yellow-200 text-xl" itemscope itemtype="http://schema.org/Person">
       <p class="level-item text-white">
-        Developled By &nbsp;<span itemprop="name" class="text-yellow-400">Rajasekar Elango</span>
+        Developed By &nbsp;<span itemprop="name" class="text-yellow-400">Rajasekar Elango</span>
         <a href="https://twitter.com/erajasekar" class="text-green-500 hover:text-green-300">
           <b-icon
             icon="twitter"
