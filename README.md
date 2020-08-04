@@ -1,20 +1,21 @@
 # notion-icons
 
+[View Live](https://notion.erajasekar.com/)
+
 ## Build Setup
 
 ```bash
 # install dependencies
 $ npm install
 
-# serve with hot reload at localhost:3000
+# serve with hot reload at localhost:3333
 $ npm run dev
 
 # build for production and launch server
 $ npm run build
-$ npm run start
+$ npm run export
+$ npm run serve
 
-# generate static project
-$ npm run generate
 ```
 
-For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).
+For detailed explanation on how the project work, check out [Nuxt.js docs](https://nuxtjs.org).
