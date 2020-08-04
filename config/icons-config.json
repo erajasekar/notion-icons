@@ -7,6 +7,110 @@
             "style": "material",
             "icons": [
                 {
+                    "name" : "circled-a", 
+                    "tags" : ["a", "letter"]
+                },
+				        {
+                    "name" : "circled-b", 
+                    "tags" : ["b", "letter"]
+                },
+				        {
+                    "name" : "circled-c", 
+                    "tags" : ["c", "letter"]
+                },
+				        {
+                    "name" : "circled-d", 
+                    "tags" : ["d", "letter"]
+                },
+				        {
+                    "name" : "circled-e", 
+                    "tags" : ["e", "letter"]
+                },
+				        {
+                    "name" : "circled-f", 
+                    "tags" : ["f", "letter"]
+                },
+				        {
+                    "name" : "circled-g", 
+                    "tags" : ["g", "letter"]
+                },
+				        {
+                    "name" : "circled-h", 
+                    "tags" : ["h", "letter"]
+                },
+				        {
+                    "name" : "circled-i", 
+                    "tags" : ["i", "letter"]
+                },
+				        {
+                    "name" : "circled-j", 
+                    "tags" : ["j", "letter"]
+                },
+				        {
+                    "name" : "circled-k", 
+                    "tags" : ["k", "letter"]
+                },
+				        {
+                    "name" : "circled-l", 
+                    "tags" : ["l", "letter"]
+                },
+				        {
+                    "name" : "circled-m", 
+                    "tags" : ["m", "letter"]
+                },
+				        {
+                    "name" : "circled-n", 
+                    "tags" : ["n", "letter"]
+                },
+				        {
+                    "name" : "circled-o", 
+                    "tags" : ["o", "letter"]
+                },
+				        {
+                    "name" : "circled-p", 
+                    "tags" : ["p", "letter"]
+                },
+				        {
+                    "name" : "circled-q", 
+                    "tags" : ["q", "letter"]
+                },
+				        {
+                    "name" : "circled-r", 
+                    "tags" : ["r", "letter"]
+                },
+				        {
+                    "name" : "circled-s", 
+                    "tags" : ["s", "letter"]
+                },
+				        {
+                    "name" : "circled-t", 
+                    "tags" : ["t", "letter"]
+                },
+				        {
+                    "name" : "circled-u", 
+                    "tags" : ["u", "letter"]
+                },
+				        {
+                    "name" : "circled-v", 
+                    "tags" : ["v", "letter"]
+                },
+				        {
+                    "name" : "circled-w", 
+                    "tags" : ["w", "letter"]
+                },
+				        {
+                    "name" : "circled-x", 
+                    "tags" : ["x", "letter"]
+                },
+				        {
+                    "name" : "circled-y", 
+                    "tags" : ["y", "letter"]
+                },
+				        {
+                    "name" : "circled-z", 
+                    "tags" : ["z", "letter"]
+                },
+                {
                     "name" : "add-to-favorites", 
                     "tags" : []
                 },
