@@ -710,10 +710,6 @@
                 {
                     "name" : "idea--v1", 
                     "tags" : ["idea", "lightbulb"]
-                },
-                {
-                    "name" : "sun--v1", 
-                    "tags" : ["sun"]
                 }
             ]
         }
