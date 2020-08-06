@@ -666,6 +666,54 @@
                 {
                     "name" : "library", 
                     "tags" : ["education"]
+                }, 
+                {
+                    "name" : "choir", 
+                    "tags" : ["choir", "music"]
+                },
+                {
+                    "name" : "bass-clef", 
+                    "tags" : ["bass clef", "music"]
+                },
+                {
+                    "name" : "slr-camera", 
+                    "tags" : ["slr", "camera", "photography", "photo", "picture"]
+                },
+                {
+                    "name" : "video-call--v1", 
+                    "tags" : ["video", "camera"]
+                },
+                {
+                    "name" : "worldwide-location--v1", 
+                    "tags" : ["location", "pin", "world"]
+                },
+                {
+                    "name" : "housekeeper-female", 
+                    "tags" : ["housekeeper", "cleaning", "female", "broom"]
+                },
+                {
+                    "name" : "clean", 
+                    "tags" : ["clean", "stars", "cleaning"]
+                },
+                {
+                    "name" : "broom--v1", 
+                    "tags" : ["broom", "cleaning"]
+                },
+                {
+                    "name" : "geography--v1", 
+                    "tags" : ["geography", "global", "language", "world", "globe"]
+                },
+                {
+                    "name" : "board-game-figure", 
+                    "tags" : ["board game", "figure", "meeple", "game"]
+                },
+                {
+                    "name" : "idea--v1", 
+                    "tags" : ["idea", "lightbulb"]
+                },
+                {
+                    "name" : "sun--v1", 
+                    "tags" : ["sun"]
                 }
             ]
         }
