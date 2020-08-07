@@ -669,47 +669,51 @@
                 }, 
                 {
                     "name" : "choir", 
-                    "tags" : ["choir", "music"]
+                    "tags" : ["music"]
                 },
                 {
                     "name" : "bass-clef", 
-                    "tags" : ["bass clef", "music"]
+                    "tags" : ["music"]
                 },
                 {
                     "name" : "slr-camera", 
-                    "tags" : ["slr", "camera", "photography", "photo", "picture"]
+                    "tags" : ["photography", "photo", "picture"]
                 },
                 {
                     "name" : "video-call--v1", 
-                    "tags" : ["video", "camera"]
+                    "tags" : ["camera"]
                 },
                 {
                     "name" : "worldwide-location--v1", 
-                    "tags" : ["location", "pin", "world"]
+                    "tags" : ["location", "pin"]
                 },
                 {
                     "name" : "housekeeper-female", 
-                    "tags" : ["housekeeper", "cleaning", "female", "broom"]
+                    "tags" : ["cleaning", "broom"]
                 },
                 {
                     "name" : "clean", 
-                    "tags" : ["clean", "stars", "cleaning"]
+                    "tags" : ["stars"]
                 },
                 {
                     "name" : "broom--v1", 
-                    "tags" : ["broom", "cleaning"]
+                    "tags" : ["cleaning"]
                 },
                 {
                     "name" : "geography--v1", 
-                    "tags" : ["geography", "global", "language", "world", "globe"]
+                    "tags" : ["global", "language", "world", "globe"]
                 },
                 {
                     "name" : "board-game-figure", 
-                    "tags" : ["board game", "figure", "meeple", "game"]
+                    "tags" : ["meeple"]
                 },
                 {
                     "name" : "idea--v1", 
                     "tags" : ["idea", "lightbulb"]
+                },
+                {
+                    "name" : "battle", 
+                    "tags" : ["objects"]
                 }
             ]
         }
