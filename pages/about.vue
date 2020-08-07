@@ -33,8 +33,8 @@
             </p>
           </div>
           <hr>
-          <div class="">
-            <h2 class=" mt-10 mb-16">
+          <div id="faq">
+            <h2 class="mt-10 mb-16">
               Frequently Asked Questions
             </h2>
             <section class="qa">
