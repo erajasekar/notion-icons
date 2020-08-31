@@ -714,6 +714,10 @@
                 {
                     "name" : "battle", 
                     "tags" : ["objects"]
+                },
+                {
+                    "name" : "plant-under-rain", 
+                    "tags" : ["grow"]
                 }
             ]
         }
