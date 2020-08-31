@@ -718,6 +718,10 @@
                 {
                     "name" : "plant-under-rain", 
                     "tags" : ["grow"]
+                },
+                {
+                    "name" : "idea-sharing", 
+                    "tags" : ["creativity"]
                 }
             ]
         }
