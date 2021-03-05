@@ -7,721 +7,765 @@
             "style": "material",
             "icons": [
                 {
-                    "name" : "circled-a", 
+                    "name" : "circled-a",
                     "tags" : ["a", "letter"]
                 },
 				        {
-                    "name" : "circled-b", 
+                    "name" : "circled-b",
                     "tags" : ["b", "letter"]
                 },
 				        {
-                    "name" : "circled-c", 
+                    "name" : "circled-c",
                     "tags" : ["c", "letter"]
                 },
 				        {
-                    "name" : "circled-d", 
+                    "name" : "circled-d",
                     "tags" : ["d", "letter"]
                 },
 				        {
-                    "name" : "circled-e", 
+                    "name" : "circled-e",
                     "tags" : ["e", "letter"]
                 },
 				        {
-                    "name" : "circled-f", 
+                    "name" : "circled-f",
                     "tags" : ["f", "letter"]
                 },
 				        {
-                    "name" : "circled-g", 
+                    "name" : "circled-g",
                     "tags" : ["g", "letter"]
                 },
 				        {
-                    "name" : "circled-h", 
+                    "name" : "circled-h",
                     "tags" : ["h", "letter"]
                 },
 				        {
-                    "name" : "circled-i", 
+                    "name" : "circled-i",
                     "tags" : ["i", "letter"]
                 },
 				        {
-                    "name" : "circled-j", 
+                    "name" : "circled-j",
                     "tags" : ["j", "letter"]
                 },
 				        {
-                    "name" : "circled-k", 
+                    "name" : "circled-k",
                     "tags" : ["k", "letter"]
                 },
 				        {
-                    "name" : "circled-l", 
+                    "name" : "circled-l",
                     "tags" : ["l", "letter"]
                 },
 				        {
-                    "name" : "circled-m", 
+                    "name" : "circled-m",
                     "tags" : ["m", "letter"]
                 },
 				        {
-                    "name" : "circled-n", 
+                    "name" : "circled-n",
                     "tags" : ["n", "letter"]
                 },
 				        {
-                    "name" : "circled-o", 
+                    "name" : "circled-o",
                     "tags" : ["o", "letter"]
                 },
 				        {
-                    "name" : "circled-p", 
+                    "name" : "circled-p",
                     "tags" : ["p", "letter"]
                 },
 				        {
-                    "name" : "circled-q", 
+                    "name" : "circled-q",
                     "tags" : ["q", "letter"]
                 },
 				        {
-                    "name" : "circled-r", 
+                    "name" : "circled-r",
                     "tags" : ["r", "letter"]
                 },
 				        {
-                    "name" : "circled-s", 
+                    "name" : "circled-s",
                     "tags" : ["s", "letter"]
                 },
 				        {
-                    "name" : "circled-t", 
+                    "name" : "circled-t",
                     "tags" : ["t", "letter"]
                 },
 				        {
-                    "name" : "circled-u", 
+                    "name" : "circled-u",
                     "tags" : ["u", "letter"]
                 },
 				        {
-                    "name" : "circled-v", 
+                    "name" : "circled-v",
                     "tags" : ["v", "letter"]
                 },
 				        {
-                    "name" : "circled-w", 
+                    "name" : "circled-w",
                     "tags" : ["w", "letter"]
                 },
 				        {
-                    "name" : "circled-x", 
+                    "name" : "circled-x",
                     "tags" : ["x", "letter"]
                 },
 				        {
-                    "name" : "circled-y", 
+                    "name" : "circled-y",
                     "tags" : ["y", "letter"]
                 },
 				        {
-                    "name" : "circled-z", 
+                    "name" : "circled-z",
                     "tags" : ["z", "letter"]
                 },
                 {
-                    "name" : "add-to-favorites", 
+                    "name" : "add-to-favorites",
                     "tags" : []
                 },
                 {
-                    "name" : "attach", 
+                    "name" : "attach",
                     "tags" : []
                 },
                 {
-                    "name" : "baby", 
+                    "name" : "baby",
                     "tags" : ["kids"]
                 },
                 {
-                    "name" : "ball-point-pen", 
+                    "name" : "ball-point-pen",
                     "tags" : ["writing"]
                 },
                 {
-                    "name" : "bonds", 
+                    "name" : "bonds",
                     "tags" : ["money", "finance"]
                 },
                 {
-                    "name" : "book-shelf", 
+                    "name" : "us-dollar-circled--v1",
+                    "tags" : ["money", "finance"]
+                },
+                {
+                    "name" : "book-shelf",
                     "tags" : ["booklist"]
                 },
                 {
-                    "name" : "bookmark", 
+                    "name" : "bookmark",
                     "tags" : []
                 },
                 {
-                    "name" : "boy", 
+                    "name" : "boy",
                     "tags" : ["kids"]
                 },
                 {
-                    "name" : "brain", 
+                    "name" : "brain",
                     "tags" : ["think", "knowledge", "intelligence"]
                 },
                 {
-                    "name" : "brainstorm", 
+                    "name" : "brainstorm",
                     "tags" : ["think"]
                 },
                 {
-                    "name" : "brainstorm-skill", 
+                    "name" : "brainstorm-skill",
                     "tags" : ["think"]
                 },
                 {
-                    "name" : "bridge", 
+                    "name" : "bridge",
                     "tags" : []
                 },
                 {
-                    "name" : "briefcase", 
+                    "name" : "briefcase",
                     "tags" : ["work", "business"]
                 },
                 {
-                    "name" : "cartoon-boy", 
+                    "name" : "cartoon-boy",
                     "tags" : ["kids"]
                 },
                 {
-                    "name" : "cathedral", 
+                    "name" : "cathedral",
                     "tags" : []
                 },
                 {
-                    "name" : "checked-2", 
+                    "name" : "checked-2",
                     "tags" : ["task", "tick"]
                 },
                 {
-                    "name" : "children", 
+                    "name" : "children",
                     "tags" : ["kids"]
                 },
                 {
-                    "name" : "chisel-tip-marker", 
+                    "name" : "chisel-tip-marker",
                     "tags" : ["writing"]
                 },
                 {
-                    "name" : "circled-menu", 
+                    "name" : "circled-menu",
                     "tags" : ["topic"]
                 },
                 {
-                    "name" : "coach", 
+                    "name" : "coach",
                     "tags" : ["training"]
                 },
                 {
-                    "name" : "code", 
+                    "name" : "code",
                     "tags" : ["programming", "computer-science"]
                 },
                 {
-                    "name" : "code-file", 
+                    "name" : "code-file",
                     "tags" : ["programming", "computer-science"]
                 },
                 {
-                    "name" : "concept", 
+                    "name" : "combo-chart--v2",
+                    "tags" : ["business"]
+                },
+                {
+                    "name" : "concept",
                     "tags" : ["idea"]
                 },
                 {
-                    "name" : "cottage", 
+                    "name" : "cottage",
                     "tags" : ["home"]
                 },
                 {
-                    "name" : "critical-thinking", 
+                    "name" : "critical-thinking",
                     "tags" : ["brain"]
                 },
                 {
-                    "name" : "crowdfunding", 
+                    "name" : "crowdfunding",
                     "tags" : []
                 },
                 {
-                    "name" : "day-view", 
+                    "name" : "day-view",
                     "tags" : ["calendar"]
                 },
                 {
-                    "name" : "development-skill", 
+                    "name" : "development-skill",
                     "tags" : ["personal-growth"]
                 },
                 {
-                    "name" : "document", 
+                    "name" : "document",
                     "tags" : ["file"]
                 },
                 {
-                    "name" : "encashment-car", 
+                    "name" : "encashment-car",
                     "tags" : ["finance", "money", "transport"]
                 },
                 {
-                    "name" : "experience-skill", 
+                    "name" : "experience-skill",
                     "tags" : []
                 },
                 {
-                    "name" : "family", 
+                    "name" : "family",
                     "tags" : []
                 },
                 {
-                    "name" : "father", 
+                    "name" : "father",
                     "tags" : []
                 },
                 {
-                    "name" : "flag-filled", 
+                    "name" : "flag-filled",
                     "tags" : []
                 },
                 {
-                    "name" : "floating-guru", 
+                    "name" : "floating-guru",
                     "tags" : ["teacher", "medidation"]
                 },
                 {
-                    "name" : "for-experienced", 
+                    "name" : "for-experienced",
                     "tags" : []
                 },
                 {
-                    "name" : "glasses", 
+                    "name" : "glasses",
                     "tags" : ["cool"]
                 },
                 {
-                    "name" : "good-decision", 
+                    "name" : "good-decision",
                     "tags" : ["attitude"]
                 },
                 {
-                    "name" : "good-quality", 
+                    "name" : "good-quality",
                     "tags" : ["like"]
                 },
                 {
-                    "name" : "google-code", 
+                    "name" : "google-code",
                     "tags" : ["programming", "computer-science"]
                 },
                 {
-                    "name" : "google-play", 
+                    "name" : "google-play",
                     "tags" : ["apps"]
                 },
                 {
-                    "name" : "guru", 
+                    "name" : "guru",
                     "tags" : ["teacher", "medidation"]
                 },
                 {
-                    "name" : "happy", 
+                    "name" : "happy",
                     "tags" : ["smile"]
                 },
                 {
-                    "name" : "home", 
+                    "name" : "home",
                     "tags" : ["family"]
                 },
                 {
-                    "name" : "home-page", 
+                    "name" : "home-page",
                     "tags" : ["family"]
                 },
                 {
-                    "name" : "idea", 
+                    "name" : "idea",
                     "tags" : ["think", "innovation"]
                 },
                 {
-                    "name" : "idea-bank", 
+                    "name" : "idea-bank",
                     "tags" : []
                 },
                 {
-                    "name" : "inbox", 
+                    "name" : "inbox",
                     "tags" : []
                 },
                 {
-                    "name" : "info", 
+                    "name" : "info",
                     "tags" : []
                 },
                 {
-                    "name" : "informatics", 
+                    "name" : "informatics",
                     "tags" : []
                 },
                 {
-                    "name" : "innovation", 
+                    "name" : "innovation",
                     "tags" : ["idea"]
                 },
                 {
-                    "name" : "knowledge-sharing", 
+                    "name" : "knowledge-sharing",
                     "tags" : ["book", "education"]
                 },
                 {
-                    "name" : "launched-rocket", 
+                    "name" : "launched-rocket",
                     "tags" : ["startup"]
                 },
                 {
-                    "name" : "layers", 
+                    "name" : "layers",
                     "tags" : ["areas"]
                 },
                 {
-                    "name" : "leader", 
+                    "name" : "leader",
                     "tags" : []
                 },
                 {
-                    "name" : "learning", 
+                    "name" : "learning",
                     "tags" : ["education"]
                 },
                 {
-                    "name" : "like", 
+                    "name" : "like",
                     "tags" : ["favourite", "favorite"]
                 },
                 {
-                    "name" : "linked-file", 
+                    "name" : "linked-file",
                     "tags" : []
                 },
                 {
-                    "name" : "linkedin", 
+                    "name" : "linkedin",
                     "tags" : ["career"]
                 },
                 {
-                    "name" : "magazine", 
+                    "name" : "magazine",
                     "tags" : ["book", "education"]
                 },
                 {
-                    "name" : "meditation-guru", 
+                    "name" : "meditation-guru",
                     "tags" : ["teacher", "calm"]
                 },
                 {
-                    "name" : "menu", 
+                    "name" : "menu",
                     "tags" : []
                 },
                 {
-                    "name" : "micro", 
+                    "name" : "micro",
                     "tags" : ["music", "podcast"]
                 },
                 {
-                    "name" : "microphone", 
+                    "name" : "microphone",
                     "tags" : ["music", "podcast"]
                 },
                 {
-                    "name" : "mind-map", 
+                    "name" : "mind-map",
                     "tags" : ["knowledge"]
                 },
                 {
-                    "name" : "money-bag", 
+                    "name" : "money-bag",
                     "tags" : ["finance", "bank"]
                 },
                 {
-                    "name" : "music", 
+                    "name" : "music",
                     "tags" : []
                 },
                 {
-                    "name" : "network-document", 
+                    "name" : "network-document",
                     "tags" : ["file"]
                 },
                 {
-                    "name" : "new-job", 
+                    "name" : "new-job",
                     "tags" : ["business"]
                 },
                 {
-                    "name" : "new-post", 
+                    "name" : "new-post",
                     "tags" : ["mail", "email"]
                 },
                 {
-                    "name" : "ok", 
+                    "name" : "ok",
                     "tags" : ["done", "tick", "task"]
                 },
                 {
-                    "name" : "organization-chart-people", 
+                    "name" : "organization-chart-people",
                     "tags" : ["business"]
                 },
                 {
-                    "name" : "overview-pages-1", 
+                    "name" : "overview-pages-1",
                     "tags" : ["index", "toc", "contents"]
                 },
                 {
-                    "name" : "overview-pages-4", 
+                    "name" : "overview-pages-4",
                     "tags" : ["index", "toc", "contents"]
                 },
                 {
-                    "name" : "parent-guardian", 
+                    "name" : "parent-guardian",
                     "tags" : ["family", "person"]
                 },
                 {
-                    "name" : "pen", 
+                    "name" : "pen",
                     "tags" : ["writing"]
                 },
                 {
-                    "name" : "permanent-job", 
+                    "name" : "permanent-job",
                     "tags" : ["career"]
                 },
                 {
-                    "name" : "person-male", 
+                    "name" : "person-male",
                     "tags" : ["profile"]
                 },
                 {
-                    "name" : "personal-growth", 
+                    "name" : "personal-growth",
                     "tags" : []
                 },
                 {
-                    "name" : "pi", 
+                    "name" : "pi",
                     "tags" : ["math"]
                 },
                 {
-                    "name" : "pin", 
+                    "name" : "pin",
                     "tags" : ["start"]
                 },
                 {
-                    "name" : "pranava", 
+                    "name" : "pranava",
                     "tags" : ["india"]
                 },
                 {
-                    "name" : "price-tag", 
+                    "name" : "price-tag",
                     "tags" : ["money", "promotion", "deal"]
                 },
                 {
-                    "name" : "prize", 
+                    "name" : "prize",
                     "tags" : ["award", "certificate", "achieve"]
                 },
                 {
-                    "name" : "project", 
+                    "name" : "project",
                     "tags" : ["progress"]
                 },
                 {
-                    "name" : "psychology", 
+                    "name" : "psychology",
                     "tags" : ["spirituality"]
                 },
                 {
-                    "name" : "quill-with-ink", 
+                    "name" : "quill-with-ink",
                     "tags" : []
                 },
                 {
-                    "name" : "quote", 
+                    "name" : "quote",
                     "tags" : []
                 },
                 {
-                    "name" : "react-native", 
+                    "name" : "react-native",
                     "tags" : ["app"]
                 },
                 {
-                    "name" : "read", 
+                    "name" : "read",
                     "tags" : ["book", "education"]
                 },
                 {
-                    "name" : "reading", 
+                    "name" : "reading",
                     "tags" : ["book", "education"]
                 },
                 {
-                    "name" : "rocket", 
+                    "name" : "rocket",
                     "tags" : ["startup", "app"]
                 },
                 {
-                    "name" : "scholarship", 
+                    "name" : "scholarship",
                     "tags" : ["school", "education"]
                 },
                 {
-                    "name" : "school", 
+                    "name" : "school",
                     "tags" : ["book", "education"]
                 },
                 {
-                    "name" : "scroll", 
+                    "name" : "scroll",
                     "tags" : []
                 },
                 {
-                    "name" : "settings", 
+                    "name" : "settings",
                     "tags" : []
                 },
                 {
-                    "name" : "sheets", 
+                    "name" : "sheets",
                     "tags" : ["apps"]
                 },
                 {
-                    "name" : "smart-playlist", 
+                    "name" : "smart-playlist",
                     "tags" : ["music"]
                 },
                 {
-                    "name" : "solar-cross", 
+                    "name" : "solar-cross",
                     "tags" : []
                 },
                 {
-                    "name" : "source-code", 
+                    "name" : "source-code",
                     "tags" : ["computer-science", "programming"]
                 },
                 {
-                    "name" : "space-shuttle", 
+                    "name" : "space-shuttle",
                     "tags" : ["startup"]
                 },
                 {
-                    "name" : "spiral-bound-booklet", 
+                    "name" : "spiral-bound-booklet",
                     "tags" : ["book", "education"]
                 },
                 {
-                    "name" : "star-of-david", 
+                    "name" : "star-of-david",
                     "tags" : ["favorite","favourite"]
                 },
                 {
-                    "name" : "student-female", 
+                    "name" : "student-female",
                     "tags" : ["school", "education"]
                 },
                 {
-                    "name" : "student-male", 
+                    "name" : "student-male",
                     "tags" : ["school", "education"]
                 },
                 {
-                    "name" : "suitcase", 
+                    "name" : "suitcase",
                     "tags" : ["business", "work"]
                 },
                 {
-                    "name" : "sun", 
+                    "name" : "sun",
                     "tags" : ["bright"]
                 },
                 {
-                    "name" : "synagogue", 
+                    "name" : "synagogue",
                     "tags" : []
                 },
                 {
-                    "name" : "table-of-content", 
+                    "name" : "table-of-content",
                     "tags" : ["list", "menu"]
                 },
                 {
-                    "name" : "tabletop-radio", 
+                    "name" : "tabletop-radio",
                     "tags" : ["podcast"]
                 },
                 {
-                    "name" : "tag-window", 
+                    "name" : "tag-window",
                     "tags" : []
                 },
                 {
-                    "name" : "thinking-bubble", 
+                    "name" : "thinking-bubble",
                     "tags" : ["think", "idea"]
                 },
                 {
-                    "name" : "time-management", 
+                    "name" : "time-management",
                     "tags" : []
                 },
                 {
-                    "name" : "todo-list", 
+                    "name" : "todo-list",
                     "tags" : ["task", "goal"]
                 },
                 {
-                    "name" : "training", 
+                    "name" : "training",
                     "tags" : ["teach", "education" ]
                 },
                 {
-                    "name" : "university", 
+                    "name" : "university",
                     "tags" : ["education", "school"]
                 },
                 {
-                    "name" : "video", 
+                    "name" : "video",
                     "tags" : ["play"]
                 },
                 {
-                    "name" : "video-call", 
+                    "name" : "video-call",
                     "tags" : []
                 },
                 {
-                    "name" : "video-gallery", 
+                    "name" : "video-gallery",
                     "tags" : []
                 },
                 {
-                    "name" : "video-playlist", 
+                    "name" : "video-playlist",
                     "tags" : []
                 },
                 {
-                    "name" : "visible", 
+                    "name" : "visible",
                     "tags" : ["eye"]
                 },
                 {
-                    "name" : "visualization-skill", 
+                    "name" : "visualization-skill",
                     "tags" : []
                 },
                 {
-                    "name" : "weak-financial-growth", 
+                    "name" : "weak-financial-growth",
                     "tags" : ["money"]
                 },
                 {
-                    "name" : "web-design", 
+                    "name" : "web-design",
                     "tags" : ["programming", "computer-science"]
                 },
                 {
-                    "name" : "youtube", 
+                    "name" : "youtube",
                     "tags" : ["social"]
                 },
                 {
-                    "name" : "clock", 
+                    "name" : "clock",
                     "tags" : ["time"]
                 },
                 {
-                    "name" : "example", 
+                    "name" : "example",
                     "tags" : [""]
                 },
                 {
-                    "name" : "proactivity", 
+                    "name" : "proactivity",
                     "tags" : ["motivation"]
                 }
                 ,
                 {
-                    "name" : "saving-book", 
+                    "name" : "saving-book",
                     "tags" : ["course", "education"]
                 },
                 {
-                    "name" : "classroom", 
+                    "name" : "classroom",
                     "tags" : ["course", "education"]
                 },
                 {
-                    "name" : "note", 
+                    "name" : "note",
                     "tags" : ["read"]
                 },
                 {
-                    "name" : "storytelling", 
+                    "name" : "storytelling",
                     "tags" : [""]
                 },
                 {
-                    "name" : "activity-history", 
+                    "name" : "activity-history",
                     "tags" : [""]
                 },
                 {
-                    "name" : "historical", 
+                    "name" : "historical",
                     "tags" : [""]
                 },
                 {
-                    "name" : "blockchain-technology", 
+                    "name" : "blockchain-technology",
                     "tags" : [""]
                 },
                 {
-                    "name" : "controller", 
+                    "name" : "controller",
                     "tags" : [""]
                 },
                 {
-                    "name" : "literature", 
+                    "name" : "literature",
                     "tags" : [""]
                 },
                 {
-                    "name" : "manual", 
+                    "name" : "manual",
                     "tags" : [""]
                 },
                 {
-                    "name" : "library", 
+                    "name" : "library",
                     "tags" : ["education"]
-                }, 
+                },
                 {
-                    "name" : "choir", 
+                    "name" : "choir",
                     "tags" : ["music"]
                 },
                 {
-                    "name" : "bass-clef", 
+                    "name" : "bass-clef",
                     "tags" : ["music"]
                 },
                 {
-                    "name" : "slr-camera", 
+                    "name" : "slr-camera",
                     "tags" : ["photography", "photo", "picture"]
                 },
                 {
-                    "name" : "video-call--v1", 
+                    "name" : "video-call--v1",
                     "tags" : ["camera"]
                 },
                 {
-                    "name" : "worldwide-location--v1", 
+                    "name" : "worldwide-location--v1",
                     "tags" : ["location", "pin"]
                 },
                 {
-                    "name" : "housekeeper-female", 
+                    "name" : "housekeeper-female",
                     "tags" : ["cleaning", "broom"]
                 },
                 {
-                    "name" : "clean", 
+                    "name" : "clean",
                     "tags" : ["stars"]
                 },
                 {
-                    "name" : "broom--v1", 
+                    "name" : "broom--v1",
                     "tags" : ["cleaning"]
                 },
                 {
-                    "name" : "geography--v1", 
+                    "name" : "geography--v1",
                     "tags" : ["global", "language", "world", "globe"]
                 },
                 {
-                    "name" : "board-game-figure", 
+                    "name" : "board-game-figure",
                     "tags" : ["meeple"]
                 },
                 {
-                    "name" : "idea--v1", 
+                    "name" : "idea--v1",
                     "tags" : ["idea", "lightbulb"]
                 },
                 {
-                    "name" : "battle", 
+                    "name" : "battle",
                     "tags" : ["objects"]
                 },
                 {
-                    "name" : "plant-under-rain", 
+                    "name" : "plant-under-rain",
                     "tags" : ["grow"]
                 },
                 {
-                    "name" : "idea-sharing", 
+                    "name" : "idea-sharing",
                     "tags" : ["creativity"]
+                },
+                {
+                    "name" : "barbell",
+                    "tags" : ["fitness"]
+                },
+                {
+                    "name" : "airport--v1",
+                    "tags" : ["travel"]
+                },
+                {
+                    "name" : "database--v1",
+                    "tags" : ["programming", "computer-science"]
+                },
+                {
+                    "name" : "mac-os",
+                    "tags" : ["logos"]
+                },
+                {
+                    "name" : "flax-seeds",
+                    "tags" : ["food"]
+                },
+                {
+                    "name" : "natural-food--v1",
+                    "tags" : ["food"]
+                },
+                {
+                    "name" : "prawn--v1",
+                    "tags" : ["food"]
+                },
+                {
+                    "name" : "carrot--v1",
+                    "tags" : ["food"]
+                },
+                {
+                    "name" : "thanksgiving--v1",
+                    "tags" : ["food"]
                 }
             ]
         }
