@@ -766,8 +766,28 @@
                 {
                     "name" : "thanksgiving--v1",
                     "tags" : ["food"]
+                },
+                {
+                    "name" : "piano",
+                    "tags" : ["music"]
+                },
+                {
+                    "name" : "external-link--v1",
+                    "tags" : ["resource"]
+                },
+                {
+                    "name" : "creativity",
+                    "tags" : ["brain", "idea"]
+                },
+                {
+                    "name" : "decision--v1",
+                    "tags" : ["thinking"]
+                },
+                {
+                    "name" : "cloud--v1",
+                    "tags" : ["salesforce"]
                 }
-            ]
+              ]
         }
     }
     ]
