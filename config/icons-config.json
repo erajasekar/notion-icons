@@ -790,6 +790,10 @@
                 {
                     "name" : "calendar--v1",
                     "tags" : ["productivity"]
+                },
+                {
+                    "name" : "keyshot-logo",
+                    "tags" : ["aperture","focus","camera"]
                 }
               ]
         }
