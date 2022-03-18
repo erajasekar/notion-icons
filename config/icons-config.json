@@ -794,6 +794,14 @@
                 {
                     "name" : "keyshot-logo",
                     "tags" : ["aperture","focus","camera"]
+                },
+                {
+                    "name" : "business-network",
+                    "tags" : ["business network"]
+                },
+                {
+                    "name" : "increase",
+                    "tags" : ["increase", "growth"]
                 }
               ]
         }
