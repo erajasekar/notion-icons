@@ -18,7 +18,7 @@
   },
   "dependencies": {
     "@nuxt/typescript-runtime": "^0.4.10",
-    "node-sass": "^4.14.1",
+    "node-sass": "^9.0.0",
     "nuxt": "^2.13.0",
     "nuxt-buefy": "^0.3.31",
     "nuxt-clipboard2": "^0.2.1",
