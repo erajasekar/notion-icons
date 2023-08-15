@@ -6,6 +6,11 @@
             "size" : "280",
             "style": "material",
             "icons": [
+               {
+                    "name" : "chef-knife",
+                    "tags" : ["chef"]
+                }
+                            
                 {
                     "name" : "circled-a",
                     "tags" : ["a", "letter"]
